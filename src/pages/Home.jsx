@@ -41,6 +41,7 @@ export default function Home({ products = [], onNavigate }) {
           />  
         </section>
         <div style={{ height: '3rem' }}></div>
+        
         {/* Trending Now Section */}
         <section aria-labelledby="trending-heading">
           <div className="tiora-section-heading">

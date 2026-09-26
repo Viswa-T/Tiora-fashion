@@ -32,7 +32,7 @@ export default function Home({ products = [], onNavigate }) {
             path="/women"
             onNavigate={handleNavigate}
           />
-          
+
           <CategoryCard
             title="MEN'S"
             image="/products/men-cover.jpg"
@@ -40,7 +40,9 @@ export default function Home({ products = [], onNavigate }) {
             onNavigate={handleNavigate}
           />  
         </section>
-
+        <br>
+        </br>
+        <br></br>
         {/* Trending Now Section */}
         <section aria-labelledby="trending-heading">
           <div className="tiora-section-heading">

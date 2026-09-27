@@ -35,7 +35,7 @@ export default function Home({ products = [], onNavigate }) {
 
           <CategoryCard
             title="MEN'S"
-            image="/products/women-cover.jpg"
+            image="/products/men-cover.jpg"
             path="/men"
             onNavigate={handleNavigate}
           />  

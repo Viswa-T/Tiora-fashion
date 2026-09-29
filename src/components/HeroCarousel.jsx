@@ -10,7 +10,7 @@ const SLIDES = [
     subtitle: "Curated outfits. Everyday style.\nLooks you'll love.",
     cta: 'EXPLORE NOW →',
     target: '/discover',
-    image: '/products/women/women-002.jpg',
+    image: '/products/women/women-front.jpg',
     imageAlt: 'TIORA Editorial Fashion Look 1',
     bgColor: '#EBE3DA',
     imgPosition: 'center 20%'
@@ -24,7 +24,7 @@ const SLIDES = [
     subtitle: 'Contemporary silhouettes.\nEffortless casual wear.',
     cta: 'EXPLORE NOW →',
     target: '/discover',
-    image: '/products/men-cover.jpg',
+    image: '/products/men/men-front.jpg',
     imageAlt: 'TIORA Editorial Fashion Look 2',
     bgColor: '#E6DED5',
     imgPosition: 'center 15%'
@@ -38,7 +38,7 @@ const SLIDES = [
     subtitle: 'Handpicked wardrobe essentials.\nDirect links to Amazon.',
     cta: 'EXPLORE NOW →',
     target: '/discover',
-    image: '/products/women/women-017.jpg',
+    image: '/products/women/women-front-02.jpg',
     imageAlt: 'TIORA Editorial Fashion Look 3',
     bgColor: '#EDE6DE',
     imgPosition: 'center 25%'
@@ -52,7 +52,7 @@ const SLIDES = [
     subtitle: 'Discover trending pieces.\nExpress your aesthetic effortlessly.',
     cta: 'EXPLORE NOW →',
     target: '/discover',
-    image: '/products/women/women-057.jpg',
+    image: '/products/women/women-f3.jpg',
     imageAlt: 'TIORA Editorial Fashion Look 4',
     bgColor: '#EAE1D7',
     imgPosition: 'center 20%'

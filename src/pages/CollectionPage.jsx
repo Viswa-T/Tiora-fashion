@@ -108,7 +108,7 @@ export default function CollectionPage({
   const categoriesList = isWomen ? WOMEN_CATEGORIES : MEN_CATEGORIES;
 
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [sortBy, setSortBy] = useState('newest');
+  const [sortBy, setSortBy] = useState('oldest');
   const [visibleCount, setVisibleCount] = useState(16);
 
   // 1. Filter by category
@@ -183,7 +183,7 @@ export default function CollectionPage({
           <div className="tiora-col-hero-card">
             <div className="tiora-col-hero-bg">
               <img
-                src={isWomen ? '/products/women-cover.jpg' : '/products/men-cover.jpg'}
+                src={isWomen ? '/products/women/women-front.jpg' : '/products/men/men-front.jpg'}
                 alt={isWomen ? "Women's Collection Cover" : "Men's Collection Cover"}
                 className="tiora-col-hero-img"
                 loading="eager"

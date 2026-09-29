@@ -17,7 +17,7 @@ const DISCOVER_TABS = [
 
 export default function Discover({ products = [], onNavigate }) {
   const [selectedTab, setSelectedTab] = useState('all');
-  const [sortBy, setSortBy] = useState('newest');
+  const [sortBy, setSortBy] = useState('oldest');
   const [visibleCount, setVisibleCount] = useState(20);
 
   // Filter products by tab
@@ -83,7 +83,7 @@ export default function Discover({ products = [], onNavigate }) {
           <div className="tiora-col-hero-card tiora-discover-hero-card">
             <div className="tiora-col-hero-bg">
               <img
-                src="/products/women/women-017.jpg"
+                src="/products/women/women-dis.png"
                 alt="TIORA Fashion Discoveries"
                 className="tiora-col-hero-img"
                 style={{ objectPosition: 'center 20%' }}

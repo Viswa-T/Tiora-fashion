@@ -3,20 +3,32 @@ import products from './data/products';
 import Home from './pages/Home';
 import Women from './pages/Women';
 import Men from './pages/Men';
+import Discover from './pages/Discover';
 import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const getPath = () => {
-    // Support pathname or hash-based routing (#/women)
+    // Support pathname or hash-based routing (#/women, #/men, #/discover)
     const hash = window.location.hash.replace(/^#/, '');
 
     if (hash === '/women' || hash === 'women') return '/women';
     if (hash === '/men' || hash === 'men') return '/men';
+    if (
+      hash === '/discover' ||
+      hash === 'discover' ||
+      hash === '/trending' ||
+      hash === 'trending'
+    ) {
+      return '/discover';
+    }
 
     const pathname = window.location.pathname;
 
     if (pathname.includes('/women')) return '/women';
     if (pathname.includes('/men')) return '/men';
+    if (pathname.includes('/discover') || pathname.includes('/trending')) {
+      return '/discover';
+    }
 
     return '/';
   };
@@ -41,16 +53,17 @@ export default function App() {
   const navigate = (path) => {
     window.history.pushState(null, '', path);
     setCurrentPath(path);
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Decide which page to display
   let page;
-
   if (currentPath === '/women') {
     page = <Women products={products} onNavigate={navigate} />;
   } else if (currentPath === '/men') {
     page = <Men products={products} onNavigate={navigate} />;
+  } else if (currentPath === '/discover') {
+    page = <Discover products={products} onNavigate={navigate} />;
   } else {
     page = <Home products={products} onNavigate={navigate} />;
   }

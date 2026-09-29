@@ -1,189 +1,107 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import ProductPreviewModal from './ProductPreviewModal';
+
+// Helper to format clean editorial style tags (e.g., "Tops | Casual")
+function formatStyleTag(category, subcategory) {
+  if (!subcategory) return category ? category.toUpperCase() : 'Fashion Look';
+
+  const sub = subcategory.toLowerCase();
+  const subFormatted = subcategory.charAt(0).toUpperCase() + subcategory.slice(1);
+
+  if (sub === 'tops') return 'Tops | Casual';
+  if (sub === 't-shirts') return 'Tops | Streetwear';
+  if (sub === 'shirts') return 'Shirts | Casual';
+  if (sub === 'skirts') return 'Skirts | Trendy';
+  if (sub === 'jeans') return 'Jeans | Denim';
+  if (sub === 'jackets') return 'Jackets | Outerwear';
+  if (sub === 'pants') return 'Pants | Chic';
+  if (sub === 'polo t-shirts') return 'T-Shirts | Smart Casual';
+  if (sub === 'korean trouser') return 'Trousers | Minimalist';
+  if (sub === 'shoes') return 'Footwear | Casual';
+  if (sub === 'watch') return 'Accessories | Watch';
+  if (sub === 'coolers') return 'Accessories | Eyewear';
+
+  return `${subFormatted} | Everyday`;
+}
 
 export default function ProductCard({ product }) {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
 
-  useEffect(() => {
-    if (!isPreviewOpen) return;
-
-    const handleKeyDown = (e) => {
-      if (e.key === 'Escape') {
-        setIsPreviewOpen(false);
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyDown);
-    document.body.style.overflow = 'hidden';
-
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = '';
-    };
-  }, [isPreviewOpen]);
-
   if (!product) return null;
 
-  const { name, image, amazonUrl } = product;
+  const { id, name, image, category, subcategory, amazonUrl } = product;
+  const styleTag = formatStyleTag(category, subcategory);
+
+  const handleCardClick = (e) => {
+    // If the user clicked the SHOP NOW button or an anchor, don't open the preview
+    if (e.target.closest('a') || e.target.closest('.tiora-shop-now-btn')) {
+      return;
+    }
+    setIsPreviewOpen(true);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      if (!e.target.closest('a')) {
+        e.preventDefault();
+        setIsPreviewOpen(true);
+      }
+    }
+  };
 
   return (
     <>
-      {/* =========================================================
-          NORMAL PRODUCT CARD
-          ========================================================= */}
       <article
         className="tiora-product-card"
-        id={`product-${product.id}`}
+        id={`product-${id}`}
+        onClick={handleCardClick}
+        onKeyDown={handleKeyDown}
+        tabIndex={0}
+        role="button"
+        aria-label={`View ${name || 'fashion item'} preview`}
       >
-        {/* Clickable Product Image */}
-        <div
-          className="tiora-product-image-container"
-          onClick={() => setIsPreviewOpen(true)}
-          role="button"
-          tabIndex={0}
-          aria-label={`Preview ${name || 'product'}`}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              setIsPreviewOpen(true);
-            }
-          }}
-        >
+        {/* Portrait Fashion Image */}
+        <div className="tiora-card-image-wrap">
           <img
             src={image}
-            alt={name || 'Fashion Look'}
-            className="tiora-product-image"
+            alt={name || 'Fashion Product'}
+            className="tiora-card-image"
             loading="eager"
             onError={(e) => {
               e.currentTarget.onerror = null;
-              e.currentTarget.style.backgroundColor = '#eaeaea';
+              e.currentTarget.style.backgroundColor = '#EFE9E2';
             }}
           />
         </div>
 
-        {/* Product Meta */}
-        <div className="tiora-product-meta">
-          <h2 className="tiora-product-title">
-            SHOP NOW ✨
-          </h2>
-
-          {name && (
-            <p
-              className="tiora-product-name"
-              title={name}
-            >
-              {name}
-            </p>
-          )}
-        </div>
-
-        {/* Normal Amazon Button */}
-        <a
-          href={amazonUrl || '#'}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="tiora-amazon-btn"
-          aria-label={`Shop ${name || 'product'} on Amazon (opens in new tab)`}
-          onClick={(e) => e.stopPropagation()}
-        >
-          <span>SHOP ON AMAZON</span>
-
-          <svg
-            className="tiora-amazon-icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-hidden="true"
-          >
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-            <polyline points="15 3 21 3 21 9" />
-            <line x1="10" y1="14" x2="21" y2="3" />
-          </svg>
-        </a>
-      </article>
-{/* =========================================================
-    PRODUCT PREVIEW POPUP
-    ========================================================= */}
-{isPreviewOpen && (
-  <div
-    className="tiora-product-preview"
-    role="dialog"
-    aria-modal="true"
-    aria-label={`${name || 'Product'} preview`}
-  >
-    <div className="tiora-preview-card">
-
-      {/* Product Image */}
-      <div className="tiora-preview-image-container">
-        <img
-          src={image}
-          alt={name || 'Fashion Look'}
-          className="tiora-preview-image"
-        />
-      </div>
-
-      {/* Same text as normal card */}
-      <div className="tiora-preview-meta">
-        <h2 className="tiora-preview-title">
-          SHOP NOW ✨
-        </h2>
-
-        {name && (
-          <p className="tiora-preview-name">
+        {/* Card Metadata */}
+        <div className="tiora-card-info">
+          <h3 className="tiora-card-title" title={name}>
             {name}
-          </p>
-        )}
-      </div>
+          </h3>
 
-      {/* Amazon Button */}
-      <a
-        href={amazonUrl || '#'}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="tiora-preview-amazon-btn"
-      >
-        <span>SHOP ON AMAZON</span>
+          <p className="tiora-card-tag">{styleTag}</p>
 
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
-        >
-          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-          <polyline points="15 3 21 3 21 9" />
-          <line x1="10" y1="14" x2="21" y2="3" />
-        </svg>
-      </a>
+          {/* Black Rounded Pill CTA Button */}
+          <a
+            href={amazonUrl || '#'}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="tiora-shop-now-btn"
+            aria-label={`Shop ${name || 'product'} on Amazon (opens in new tab)`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <span>SHOP NOW →</span>
+          </a>
+        </div>
+      </article>
 
-      {/* Down Arrow */}
-      <button
-        type="button"
-        className="tiora-preview-close"
-        onClick={() => setIsPreviewOpen(false)}
-        aria-label="Close product preview"
-      >
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
-        >
-          <polyline points="6 9 12 15 18 9" />
-        </svg>
-      </button>
-
-    </div>
-  </div>
-)}
-</>
+      {/* Product Preview Modal */}
+      <ProductPreviewModal
+        product={product}
+        isOpen={isPreviewOpen}
+        onClose={() => setIsPreviewOpen(false)}
+      />
+    </>
   );
 }

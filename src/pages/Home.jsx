@@ -1,109 +1,71 @@
-import React from 'react';
+import React, { useMemo } from 'react';
+import AnnouncementBar from '../components/AnnouncementBar';
 import Header from '../components/Header';
-import CategoryCard from '../components/CategoryCard';
+import HeroCarousel from '../components/HeroCarousel';
+import CollectionPromoCards from '../components/CollectionPromoCards';
 import ProductGrid from '../components/ProductGrid';
 import Footer from '../components/Footer';
 
 export default function Home({ products = [], onNavigate }) {
-  // Show a curated selection of 6 trending products on the home page (3 women, 3 men)
-  const womenTrending = products.filter((p) => p.category === 'women').slice(0, 3);
-  const menTrending = products.filter((p) => p.category === 'men').slice(0, 3);
-  const trendingProducts = [...womenTrending, ...menTrending];
+  // Curate a trending subset of products (3 women + 3 men = 6 items)
+  // as visually shown in Reference Image 1
+  const trendingProducts = useMemo(() => {
+    const women = products.filter((p) => p.category === 'women');
+    const men = products.filter((p) => p.category === 'men');
 
-  const handleNavigate = (path) => {
+    // Pick top items
+    const selectedWomen = women.slice(0, 3);
+    const selectedMen = men.slice(0, 3);
+
+    return [...selectedWomen, ...selectedMen];
+  }, [products]);
+
+  const handleViewAll = (e) => {
+    e.preventDefault();
     if (onNavigate) {
-      onNavigate(path);
+      onNavigate('/discover');
     } else {
-      window.history.pushState(null, '', path);
+      window.history.pushState(null, '', '/discover');
       window.dispatchEvent(new PopStateEvent('popstate'));
     }
   };
 
   return (
     <div className="tiora-page-wrapper">
-      <div className="tiora-container">
-        <Header currentPath="/" onNavigate={handleNavigate} />
+      <AnnouncementBar />
 
-        {/* Category Cards (Women's and Men's) */}
-        <section className="tiora-categories-grid" aria-label="Fashion Categories">
-          <CategoryCard
-            title="WOMEN'S"
-            image="/products/women-cover.jpg"
-            path="/women"
-            onNavigate={handleNavigate}
-          />
+      <div className="tiora-main-container">
+        <Header currentPath="/" onNavigate={onNavigate} />
 
-          <CategoryCard
-            title="MEN'S"
-            image="/products/men-cover.jpg"
-            path="/men"
-            onNavigate={handleNavigate}
-          />  
-        </section>
-        <div style={{ height: '3rem' }}></div>
-        
-        {/* Trending Now Section */}
-        <section aria-labelledby="trending-heading">
-          <div className="tiora-section-heading">
-            <h2 id="trending-heading" className="tiora-section-title">
-              <span>🔥</span> TRENDING PICKS
+        {/* Hero Section Carousel */}
+        <HeroCarousel onNavigate={onNavigate} />
+
+        {/* Women's and Men's Collection Promotional Cards */}
+        <CollectionPromoCards onNavigate={onNavigate} />
+
+        {/* Trending Looks Section */}
+        <section className="tiora-trending-section" aria-labelledby="trending-title">
+          <div className="tiora-trending-header">
+            <h2 id="trending-title" className="tiora-trending-title">
+              <span>Trending Looks</span>
+              <span className="tiora-title-underline" aria-hidden="true" />
             </h2>
-            <span className="tiora-section-badge">CURATED</span>
+
+            <a
+              href="/discover"
+              onClick={handleViewAll}
+              className="tiora-view-all-link"
+              aria-label="View all trending fashion looks"
+            >
+              <span>View All</span>
+              <span className="tiora-arrow">→</span>
+            </a>
           </div>
 
           <ProductGrid products={trendingProducts} />
         </section>
 
-        {/* Quick Navigation Action Buttons */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
-          <button
-            type="button"
-            className="tiora-action-btn"
-            onClick={() => handleNavigate('/women')}
-            aria-label="See all Women's collection"
-          >
-            <span>SEE ALL WOMEN'S</span>
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </button>
-
-          <button
-            type="button"
-            className="tiora-action-btn tiora-action-btn-secondary"
-            onClick={() => handleNavigate('/men')}
-            aria-label="See all Men's collection"
-          >
-            <span>SEE ALL MEN'S</span>
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </button>
-        </div>
-
-        <Footer />
+        <Footer onNavigate={onNavigate} />
       </div>
     </div>
   );

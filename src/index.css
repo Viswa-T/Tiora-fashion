@@ -609,3 +609,351 @@ img {
     font-size: 0.75rem;
   }
 }
+
+/* =========================================================
+   PRODUCT PREVIEW POPUP
+   ========================================================= */
+
+.tiora-product-preview {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  padding: 1rem;
+
+  background: rgba(0, 0, 0, 0.88);
+
+  animation: tioraPreviewFadeIn 0.2s ease-out;
+}
+
+@keyframes tioraPreviewFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* =========================================================
+   POPUP CARD
+   SAME STYLE AS NORMAL PRODUCT CARD
+   ========================================================= */
+
+.tiora-preview-card {
+  position: relative;
+
+  width: 100%;
+  max-width: 350px;
+  height: 460px;
+  background: #ffffff;
+
+  border: 2px solid #000000;
+  border-radius: 9px;
+
+  box-shadow: 4px 4px 0 #000000;
+
+  padding: 0.625rem;
+
+  overflow: visible;
+
+  transform: translateY(-3%);
+
+  animation: tioraPreviewCardIn 0.2s ease-out;
+}
+
+@keyframes tioraPreviewCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3%) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(-3%) scale(1);
+  }
+}
+
+
+/* =========================================================
+   POPUP IMAGE
+   ========================================================= */
+
+.tiora-preview-image-container {
+  width: 100%;
+
+  aspect-ratio: 1 / 1;
+
+  overflow: hidden;
+
+  border-radius: 6px;
+
+  background: #eeeeee;
+}
+
+.tiora-preview-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/* =========================================================
+   POPUP TEXT
+   ========================================================= */
+
+.tiora-preview-meta {
+  text-align: center;
+
+  padding-top: 0.7rem;
+}
+
+.tiora-preview-title {
+  margin: 0;
+
+  color: #000000;
+
+  font-size: 1rem;
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-transform: uppercase;
+}
+
+.tiora-preview-name {
+  margin: 0.2rem 0 0;
+
+  color: #222222;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  line-height: 1.25;
+}
+
+
+/* =========================================================
+   POPUP AMAZON BUTTON
+   ========================================================= */
+
+.tiora-preview-amazon-btn {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.45rem;
+
+  width: 100%;
+
+  margin-top: 0.65rem;
+
+  padding: 0.7rem 0.75rem;
+
+  background: var(--color-bg);
+
+  color: var(--color-black);
+
+  border: 2px solid var(--color-black);
+  border-radius: var(--radius-default);
+
+  box-shadow: var(--shadow-btn);
+
+  font-size: 0.8rem;
+  font-weight: 800;
+
+  letter-spacing: 0.02em;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  box-sizing: border-box;
+}
+
+.tiora-preview-amazon-btn svg {
+  width: 1rem;
+  height: 1rem;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   DOWN ARROW
+   ========================================================= */
+
+.tiora-preview-close {
+  position: absolute;
+
+  top: calc(100% + 0.8rem);
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 3rem;
+  height: 3rem;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+
+  color: #000000;
+
+  border: 2px solid #000000;
+  border-radius: 50%;
+
+  box-shadow: 3px 3px 0 #000000;
+
+  cursor: pointer;
+
+  z-index: 10;
+}
+
+.tiora-preview-close svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 360px) {
+  .tiora-product-preview {
+    padding: 0.75rem;
+  }
+
+  .tiora-preview-card {
+    max-width: 320px;
+    padding: 0.55rem;
+  }
+
+  .tiora-preview-title {
+    font-size: 0.9rem;
+  }
+
+  .tiora-preview-name {
+    font-size: 0.8rem;
+  }
+
+  .tiora-preview-amazon-btn {
+    padding: 0.65rem;
+    font-size: 0.75rem;
+  }
+
+  .tiora-preview-close {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+/* =========================================================
+   DOWN ARROW
+   ========================================================= */
+
+.tiora-preview-close {
+  position: absolute;
+
+  /* Arrow position relative to screen */
+  top: 50%;
+  left: 50%;
+
+  /* Popup is moved upward by -5%, so put arrow below it */
+  margin-top: 270px;
+
+  transform: translateX(-50%);
+
+  width: 3.25rem;
+  height: 3.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  color: #000000;
+
+  border: 2px solid #000000;
+  border-radius: 50%;
+
+  box-shadow: 3px 3px 0 #000000;
+
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.tiora-preview-close svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.tiora-preview-close svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.tiora-preview-close:hover {
+  transform: translateX(-50%) translateY(-1px);
+
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.tiora-preview-close:active {
+  transform: translateX(-50%) translateY(2px);
+
+  box-shadow: 1px 1px 0 #000000;
+}
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+  .tiora-product-preview {
+    padding: 1rem 0.65rem;
+  }
+
+  .tiora-preview-card {
+    max-height: calc(100dvh - 5.5rem);
+
+    transform: translateY(-5%);
+  }
+
+  .tiora-preview-product-name {
+    padding: 0.7rem 0.8rem 0.25rem;
+
+    font-size: 0.9rem;
+  }
+
+  .tiora-preview-amazon-btn {
+    width: calc(100% - 1rem);
+
+    margin: 0.45rem 0.5rem 0.5rem;
+
+    padding: 0.7rem 0.75rem;
+
+    font-size: 0.75rem;
+  }
+
+  .tiora-preview-close {
+    width: 3rem;
+    height: 3rem;
+  }
+}

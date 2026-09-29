@@ -42,8 +42,8 @@ export default function SortBar({
             className="tiora-sort-select"
             aria-label="Sort products by"
           >
-            <option value="newest">Newest First</option>
             <option value="oldest">Oldest First</option>
+            <option value="newest">Newest First</option>
             <option value="name-asc">Name (A–Z)</option>
             <option value="name-desc">Name (Z–A)</option>
           </select>

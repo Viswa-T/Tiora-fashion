@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import CategoryCard from '../components/CategoryCard';
 import ProductGrid from '../components/ProductGrid';
 import Footer from '../components/Footer';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home({ products = [], onNavigate }) {
   // Show a curated selection of 6 trending products on the home page (3 women, 3 men)

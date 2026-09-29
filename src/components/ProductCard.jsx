@@ -52,7 +52,7 @@ export default function ProductCard({ product }) {
             src={image}
             alt={name || 'Fashion Look'}
             className="tiora-product-image"
-            loading="lazy"
+            loading="eager"
             onError={(e) => {
               e.currentTarget.onerror = null;
               e.currentTarget.style.backgroundColor = '#eaeaea';

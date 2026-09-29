@@ -52,7 +52,7 @@ const SLIDES = [
     subtitle: 'Discover trending pieces.\nExpress your aesthetic effortlessly.',
     cta: 'EXPLORE NOW →',
     target: '/discover',
-    image: '/products/women-cover.jpg',
+    image: '/products/women/women-057.jpg',
     imageAlt: 'TIORA Editorial Fashion Look 4',
     bgColor: '#EAE1D7',
     imgPosition: 'center 20%'

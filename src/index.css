@@ -495,6 +495,7 @@ ul, ol {
 .tiora-hero-content {
   position: relative;
   z-index: 2;
+  
 }
 
 /* --------------------------------------------------------------------------
@@ -568,7 +569,7 @@ ul, ol {
   width: 48%;
   max-width: 470px;
 
-  padding: 2rem 1.5rem 2.8rem 2rem;
+  padding: 2rem 1.5rem 2.8rem 4rem;
 
   display: flex;
   flex-direction: column;
@@ -680,7 +681,7 @@ ul, ol {
   font-weight: 700;
 
   letter-spacing: 0.05em;
-
+  
   box-shadow:
     0 4px 14px rgba(0, 0, 0, 0.22);
 
@@ -815,6 +816,8 @@ ul, ol {
     font-size: 0.78rem;
     padding: 0.7rem 1.35rem;
   }
+
+    
 }
 
 /* --------------------------------------------------------------------------
@@ -824,19 +827,22 @@ ul, ol {
 @media (min-width: 1100px) {
 
   .tiora-hero-container {
-    height: 300px;
+    height: 350px;
   }
 
   .tiora-hero-content {
     width: 40%;
     padding-left: 5.2rem;
-    padding-top: 6.5rem;
-    padd
+    padding-top: 9.5rem;
+
+    padding-bottom: 10rem;
   }
 
   .tiora-hero-title {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
   }
+
+  
 }
 
 /* --------------------------------------------------------------------------

@@ -107,7 +107,7 @@ export default function CollectionPage({
   const isWomen = category === 'women';
   const categoriesList = isWomen ? WOMEN_CATEGORIES : MEN_CATEGORIES;
 
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedCategory, setSelectedCategory] = useState(isWomen ? 'all' : 'shirts');
   const [sortBy, setSortBy] = useState('oldest');
   const [visibleCount, setVisibleCount] = useState(16);
 

@@ -491,12 +491,12 @@ const products = [
   "name": "Classic Regular Fit Casual Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-000.jpg",
+  "image": "/products/men/men-000.png",
   "amazonUrl": "https://link.amazon/B02pGysUM"
 },
 
 {
-  "id": 102,
+  "id": 111,
   "name": "Embroidered Casual Cotton Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -505,21 +505,21 @@ const products = [
 },
 
 {
-  "id": 103,
+  "id": 102,
   "name": "Relaxed Fit Denim Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-014.jpg",
+  "image": "/products/men/men-003.png",
   "amazonUrl": "https://link.amazon/B0gzd9dhP"
 },
 
 
 {
-  "id": 104,
+  "id": 106,
   "name": "Minimal Casual Overshirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-007.jpg",
+  "image": "/products/men/men-0004 .png",
   "amazonUrl": "https://link.amazon/B07dyhRfV"
 },
 
@@ -572,7 +572,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B0bZStJak"
 },
 {
-  "id": 106,
+  "id": 110,
   "name": "Vintage Oversized Washed Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -580,31 +580,31 @@ const products = [
   "amazonUrl": "https://link.amazon/B0e0maS9G"
 },
 {
-  "id": 107,
+  "id": 109,
   "name": "Casual Utility Pocket Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-010.jpg",
+  "image": "/products/men/men-red.jpg",
   "amazonUrl": "https://link.amazon/B05Jmo2M5"
 },
 {
-  "id": 110,
+  "id": 105,
   "name": "Striped Resort Camp Collar Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-011.jpg",
+  "image": "/products/men/men-bla.png",
   "amazonUrl": "https://link.amazon/B02VobXi4"
 },
 {
-  "id": 112,
+  "id": 107,
   "name": "Slim Fit Everyday Casual Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-012.jpg",
+  "image": "/products/men/men-9090.png",
   "amazonUrl": "https://link.amazon/B0gFNZqGf"
 },
 {
-  "id": 108,
+  "id": 112,
   "name": "Casual Suede Style Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -612,27 +612,27 @@ const products = [
   "amazonUrl": "https://link.amazon/B0gmA4gFr"
 },
 {
-  "id": 111,
+  "id": 108,
   "name": "Acid Wash Streetwear Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-015.jpg",
+  "image": "/products/men/men-blue.png",
   "amazonUrl": "https://link.amazon/B0ai3fDJs"
 },
 {
-  "id": 109,
+  "id": 104,
   "name": "Cotton Linen Blend Casual Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-016.jpg",
+  "image": "/products/men/men-01.png",
   "amazonUrl": "https://link.amazon/B0ejvLTZr"
 },
 {
-  "id": 105,
+  "id": 103,
   "name": "Modern Relaxed Fit Casual Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-017.jpg",
+  "image": "/products/men/men-0004.png",
   "amazonUrl": "https://link.amazon/B0dpoSKeS"
 },
 

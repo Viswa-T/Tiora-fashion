@@ -327,6 +327,7 @@
 
   .tiora-popup-overlay {
     padding: 8px;
+    animation: tioraOverlayFade 1.1s ease forwards;
   }
 
   .tiora-popup-actions {

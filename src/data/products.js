@@ -21,7 +21,7 @@ const products = [
     "category": "women",
     "subcategory": "skirts",
     "image": "/products/women/women-001.jpg",
-    "price": "₹",
+    "price": "₹ 699",
     "amazonUrl": "https://link.amazon/B0cC4BY12"
   },
   {
@@ -30,7 +30,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-002.jpg",
-    "price": "₹",
+    "price": "₹ 479",
     "amazonUrl": "https://link.amazon/B043nwj8v"
   },
   {
@@ -39,7 +39,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-003.jpg",
-    "price": "₹",
+    "price": "₹ 349",
     "amazonUrl": "https://link.amazon/B06PvR4A5"
   },
   {
@@ -48,7 +48,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-004.jpg",
-    "price": "₹",
+    "price": "₹ 999",
     "amazonUrl": "https://link.amazon/B09CN665V"
   },
   {
@@ -57,7 +57,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-005.jpg",
-    "price": "₹",
+    "price": "₹ 899",
     "amazonUrl": "https://link.amazon/B04RkW6lC"
   },
   {
@@ -66,7 +66,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-006.jpg",
-    "price": "₹",
+    "price": "₹ 849",
     "amazonUrl": "https://link.amazon/B08FEeKot"
   },
   {
@@ -75,7 +75,7 @@ const products = [
     "category": "women",
     "subcategory": "skirts",
     "image": "/products/women/women-007.jpg",
-    "price": "₹",
+    "price": "₹ 729",
     "amazonUrl": "https://link.amazon/B07sWwMHl"
   },
   {
@@ -84,7 +84,7 @@ const products = [
     "category": "women",
     "subcategory": "skirts",
     "image": "/products/women/women-008.jpg",
-    "price": "₹",
+    "price": "₹ 899",
     "amazonUrl": "https://link.amazon/B0dtrFQzX"
   },
   {
@@ -93,7 +93,7 @@ const products = [
     "category": "women",
     "subcategory": "skirts",
     "image": "/products/women/women-009.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B0i5LVDgu"
   },
   {
@@ -102,7 +102,7 @@ const products = [
     "category": "women",
     "subcategory": "skirts",
     "image": "/products/women/women-010.jpg",
-    "price": "₹",
+    "price": "₹ 799",
     "amazonUrl": "https://link.amazon/B04Qyyngw"
   },
   {
@@ -111,7 +111,7 @@ const products = [
     "category": "women",
     "subcategory": "jeans",
     "image": "/products/women/women-011.jpg",
-    "price": "₹",
+    "price": "₹ 729",
     "amazonUrl": "https://link.amazon/B0hDsVZI3"
   },
   {
@@ -120,7 +120,7 @@ const products = [
     "category": "women",
     "subcategory": "jeans",
     "image": "/products/women/women-012.jpg",
-    "price": "₹",
+    "price": "₹ 749",
     "amazonUrl": "https://link.amazon/B024MGpJd"
   },
   {
@@ -129,7 +129,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-013.jpg",
-    "price": "₹",
+    "price": "₹ 749",
     "amazonUrl": "https://link.amazon/B02erTHba"
   },
   {
@@ -138,7 +138,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-014.jpg",
-    "price": "₹",
+    "price": "₹ 824",
     "amazonUrl": "https://link.amazon/B0aT2bYhc"
   },
   {
@@ -147,7 +147,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-015.jpg",
-    "price": "₹",
+    "price": "₹ 749",
     "amazonUrl": "https://link.amazon/B04vSaV34"
   },
   {
@@ -156,7 +156,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-016.jpg",
-    "price": "₹",
+    "price": "₹ 864",
     "amazonUrl": "https://link.amazon/B04ybRA0e"
   },
   {
@@ -165,7 +165,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-017.jpg",
-    "price": "₹",
+    "price": "₹ 349",
     "amazonUrl": "https://link.amazon/B04vhdBzx"
   },
   {
@@ -174,7 +174,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-018.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B034KKG2V"
   },
   {
@@ -183,7 +183,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-019.jpg",
-    "price": "₹",
+    "price": "₹ 949",
     "amazonUrl": "https://link.amazon/B06Gh27Gq"
   },
   {
@@ -192,7 +192,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-020.jpg",
-    "price": "₹",
+    "price": "₹ 1,199",
     "amazonUrl": "https://link.amazon/B0eX7bwoZ"
   },
   {
@@ -201,7 +201,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-021.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B02rwxNOe"
   },
   {
@@ -210,7 +210,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-022.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B05aTtIE8"
   },
   {
@@ -219,7 +219,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-023.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B0ic5bLnn"
   },
   {
@@ -228,7 +228,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-024.jpg",
-    "price": "₹",
+    "price": "₹ 260",
     "amazonUrl": "https://link.amazon/B0gVNBpwc"
   },
   {
@@ -237,7 +237,7 @@ const products = [
     "category": "women",
     "subcategory": "jeans",
     "image": "/products/women/women-025.jpg",
-    "price": "₹",
+    "price": "₹ 645",
     "amazonUrl": "https://link.amazon/B085B7LtN"
   },
   {
@@ -246,7 +246,7 @@ const products = [
     "category": "women",
     "subcategory": "jeans",
     "image": "/products/women/women-026.jpg",
-    "price": "₹",
+    "price": "₹ 640",
     "amazonUrl": "https://link.amazon/B0guNAN29"
   },
   {
@@ -255,7 +255,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-027.jpg",
-    "price": "₹",
+    "price": "₹ 499",
     "amazonUrl": "https://link.amazon/B05IfbsGf"
   },
   {
@@ -264,7 +264,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-028.jpg",
-    "price": "₹",
+    "price": "₹ 499",
     "amazonUrl": "https://link.amazon/B093Ug24M"
   },
   {
@@ -273,7 +273,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-029.jpg",
-    "price": "₹",
+    "price": "₹ 499",
     "amazonUrl": "https://link.amazon/B04TltwTW"
   },
   {
@@ -282,7 +282,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-030.jpg",
-    "price": "₹",
+    "price": "₹ 499",
     "amazonUrl": "https://link.amazon/B0gf18dU2"
   },
   {
@@ -291,7 +291,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-031.jpg",
-    "price": "₹",
+    "price": "₹ 499",
     "amazonUrl": "https://link.amazon/B02TSmjLr"
   },
   {
@@ -300,7 +300,7 @@ const products = [
     "category": "women",
     "subcategory": "shirts",
     "image": "/products/women/women-032.jpg",
-    "price": "₹",
+    "price": "₹ 479",
     "amazonUrl": "https://link.amazon/B0ertbnIF"
   },
   {
@@ -309,7 +309,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-033.jpg",
-    "price": "₹",
+    "price": "₹ 448",
     "amazonUrl": "https://link.amazon/B02qVFn0r"
   },
   {
@@ -318,7 +318,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-034.jpg",
-    "price": "₹",
+    "price": "₹ 448",
     "amazonUrl": "https://link.amazon/B0dvcE7Qb"
   },
   {
@@ -327,7 +327,7 @@ const products = [
     "category": "women",
     "subcategory": "pants",
     "image": "/products/women/women-035.jpg",
-    "price": "₹",
+    "price": "₹ 999",
     "amazonUrl": "https://link.amazon/B0ebcPBd0"
   },
   {
@@ -336,7 +336,7 @@ const products = [
     "category": "women",
     "subcategory": "pants",
     "image": "/products/women/women-036.jpg",
-    "price": "₹",
+    "price": "₹ 999",
     "amazonUrl": "https://link.amazon/B05P6IAsg"
   },
   {
@@ -345,7 +345,7 @@ const products = [
     "category": "women",
     "subcategory": "pants",
     "image": "/products/women/women-037.jpg",
-    "price": "₹",
+    "price": "₹ 739",
     "amazonUrl": "https://link.amazon/B0jhqnK4O"
   },
   {
@@ -354,7 +354,7 @@ const products = [
     "category": "women",
     "subcategory": "pants",
     "image": "/products/women/women-038.jpg",
-    "price": "₹",
+    "price": "₹ 689",
     "amazonUrl": "https://link.amazon/B07bUjS55"
   },
   {
@@ -363,7 +363,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-039.jpg",
-    "price": "₹",
+    "price": "₹ 698",
     "amazonUrl": "https://link.amazon/B0bjn2v1n"
   },
   {
@@ -372,7 +372,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-040.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B048LIZib"
   },
   {
@@ -381,7 +381,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-050.jpg",
-    "price": "₹",
+    "price": "₹ 1,099",
     "amazonUrl": "https://link.amazon/B08inkb27"
   },
   {
@@ -390,7 +390,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-051.jpg",
-    "price": "₹",
+    "price": "₹ 389",
     "amazonUrl": "https://link.amazon/B0j6m5Zrk"
   },
   {
@@ -399,7 +399,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-052.jpg",
-    "price": "₹",
+    "price": "₹ 349",
     "amazonUrl": "https://link.amazon/B0cnerl0T"
   },
   {
@@ -408,7 +408,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-053.jpg",
-    "price": "₹",
+    "price": "₹ 299",
     "amazonUrl": "https://link.amazon/B0fa5Ntpu"
   },
   {
@@ -417,7 +417,7 @@ const products = [
     "category": "women",
     "subcategory": "t-shirts",
     "image": "/products/women/women-054.jpg",
-    "price": "₹",
+    "price": "₹ 279",
     "amazonUrl": "https://link.amazon/B07rsKAtu"
   },
   {
@@ -426,7 +426,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-055.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B09n5Zyl6"
   },
   {
@@ -435,7 +435,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-056.jpg",
-    "price": "₹",
+    "price": "₹ 399",
     "amazonUrl": "https://link.amazon/B0d66tuls"
   },
   {
@@ -444,7 +444,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-057.jpg",
-    "price": "₹",
+    "price": "₹ 949",
     "amazonUrl": "https://link.amazon/B07VygcIp"
   },
   {
@@ -453,7 +453,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-058.jpg",
-    "price": "₹",
+    "price": "₹ 499",
     "amazonUrl": "https://link.amazon/B09Wp73II"
   },
   {
@@ -462,7 +462,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-059.jpg",
-    "price": "₹",
+    "price": "₹ 299",
     "amazonUrl": "https://link.amazon/B0dU9oZ35"
   },
   {
@@ -471,7 +471,7 @@ const products = [
     "category": "women",
     "subcategory": "tops",
     "image": "/products/women/women-060.jpg",
-    "price": "₹",
+    "price": "₹ 299",
     "amazonUrl": "https://link.amazon/B07GmaTBA"
   },
   {
@@ -480,7 +480,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-062.jpg",
-    "price": "₹",
+    "price": "₹ 1,499",
     "amazonUrl": "https://link.amazon/B0iBis7wZ"
   },
   {
@@ -489,7 +489,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-063.jpg",
-    "price": "₹",
+    "price": "₹ 525",
     "amazonUrl": "https://link.amazon/B06W0UFm8"
   },
   {
@@ -498,7 +498,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-064.jpg",
-    "price": "₹",
+    "price": "₹ 1,599",
     "amazonUrl": "https://link.amazon/B0g4myBM0"
   },
   {
@@ -507,7 +507,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-065.jpg",
-    "price": "₹",
+    "price": "₹ 525",
     "amazonUrl": "https://link.amazon/B0gSmjhaq"
   },
   {
@@ -516,7 +516,7 @@ const products = [
     "category": "women",
     "subcategory": "jackets",
     "image": "/products/women/women-066.jpg",
-    "price": "₹",
+    "price": "₹ 519",
     "amazonUrl": "https://link.amazon/B00oNXDy3"
   },
 

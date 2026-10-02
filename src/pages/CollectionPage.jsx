@@ -144,12 +144,24 @@ export default function CollectionPage({
       // Oldest first (lowest id)
       return list.sort((a, b) => a.id - b.id);
     }
-    if (sortBy === 'name-asc') {
-      return list.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+    if (sortBy === 'price-low') {
+      return list.sort((a, b) => {
+        const priceA = Number((a.price || '').replace(/[₹,\s]/g, ''));
+        const priceB = Number((b.price || '').replace(/[₹,\s]/g, ''));
+
+        return priceA - priceB;
+      });
     }
-    if (sortBy === 'name-desc') {
-      return list.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
+
+    if (sortBy === 'price-high') {
+      return list.sort((a, b) => {
+        const priceA = Number((a.price || '').replace(/[₹,\s]/g, ''));
+        const priceB = Number((b.price || '').replace(/[₹,\s]/g, ''));
+
+        return priceB - priceA;
+      });
     }
+    
     return list;
   }, [filteredProducts, sortBy]);
 

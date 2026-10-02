@@ -46,13 +46,36 @@ export default function Discover({ products = [], onNavigate }) {
 
   // Sort products deterministically
   const sortedProducts = useMemo(() => {
-    const list = [...filteredProducts];
-    if (sortBy === 'newest') return list.sort((a, b) => b.id - a.id);
-    if (sortBy === 'oldest') return list.sort((a, b) => a.id - b.id);
-    if (sortBy === 'name-asc') return list.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-    if (sortBy === 'name-desc') return list.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
-    return list;
-  }, [filteredProducts, sortBy]);
+  const list = [...filteredProducts];
+
+  if (sortBy === 'newest') {
+    return list.sort((a, b) => b.id - a.id);
+  }
+
+  if (sortBy === 'oldest') {
+    return list.sort((a, b) => a.id - b.id);
+  }
+
+  if (sortBy === 'price-low') {
+    return list.sort((a, b) => {
+      const priceA = Number((a.price || '').replace(/[₹,\s]/g, ''));
+      const priceB = Number((b.price || '').replace(/[₹,\s]/g, ''));
+
+      return priceA - priceB;
+    });
+  }
+
+  if (sortBy === 'price-high') {
+    return list.sort((a, b) => {
+      const priceA = Number((a.price || '').replace(/[₹,\s]/g, ''));
+      const priceB = Number((b.price || '').replace(/[₹,\s]/g, ''));
+
+      return priceB - priceA;
+    });
+  }
+
+  return list;
+}, [filteredProducts, sortBy]);
 
   const displayedProducts = useMemo(() => {
     return sortedProducts.slice(0, visibleCount);

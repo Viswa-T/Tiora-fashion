@@ -33,7 +33,7 @@ export default function Home({ products = [], onNavigate }) {
 
   return (
     <div className="tiora-page-wrapper">
-      <Popup />
+      <Popup onNavigate={onNavigate}/>
       <AnnouncementBar />
 
       <div className="tiora-main-container">

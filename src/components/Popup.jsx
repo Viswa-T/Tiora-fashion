@@ -1,13 +1,9 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
-export default function Popup() {
+export default function Popup({ onNavigate }) {
   const [showPopup, setShowPopup] = useState(false);
 
-  const navigate = useNavigate();
-
   useEffect(() => {
-    // Show only if popup hasn't already been closed
     const popupClosed = sessionStorage.getItem(
       "tiora-popup-closed"
     );
@@ -24,7 +20,6 @@ export default function Popup() {
   const closePopup = () => {
     setShowPopup(false);
 
-    // Remember that popup was closed
     sessionStorage.setItem(
       "tiora-popup-closed",
       "true"
@@ -34,13 +29,25 @@ export default function Popup() {
   // SHOP NOW → Men's page
   const goToMen = () => {
     closePopup();
-    navigate("/men");
+
+    if (onNavigate) {
+      onNavigate("/men");
+    } else {
+      window.history.pushState(null, "", "/men");
+      window.dispatchEvent(new PopStateEvent("popstate"));
+    }
   };
 
   // GO TO STORE → Discover page
   const goToDiscover = () => {
     closePopup();
-    navigate("/discover");
+
+    if (onNavigate) {
+      onNavigate("/discover");
+    } else {
+      window.history.pushState(null, "", "/discover");
+      window.dispatchEvent(new PopStateEvent("popstate"));
+    }
   };
 
   if (!showPopup) return null;

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import ProductPreviewModal from './ProductPreviewModal';
 
-// Helper to format clean editorial style tags (e.g., "Tops | Casual")
+// Helper to format clean editorial style tags
 function formatStyleTag(category, subcategory) {
   if (!subcategory) return category ? category.toUpperCase() : 'Fashion Look';
 
   const sub = subcategory.toLowerCase();
-  const subFormatted = subcategory.charAt(0).toUpperCase() + subcategory.slice(1);
+  const subFormatted =
+    subcategory.charAt(0).toUpperCase() + subcategory.slice(1);
 
   if (sub === 'tops') return 'Tops | Casual';
   if (sub === 't-shirts') return 'Tops | Streetwear';
@@ -29,14 +30,26 @@ export default function ProductCard({ product }) {
 
   if (!product) return null;
 
-  const { id, name, image, category, subcategory, amazonUrl } = product;
+  const {
+    id,
+    name,
+    image,
+    category,
+    subcategory,
+    price,
+    amazonUrl
+  } = product;
+
   const styleTag = formatStyleTag(category, subcategory);
 
   const handleCardClick = (e) => {
-    // If the user clicked the SHOP NOW button or an anchor, don't open the preview
-    if (e.target.closest('a') || e.target.closest('.tiora-shop-now-btn')) {
+    if (
+      e.target.closest('a') ||
+      e.target.closest('.tiora-shop-now-btn')
+    ) {
       return;
     }
+
     setIsPreviewOpen(true);
   };
 
@@ -76,11 +89,19 @@ export default function ProductCard({ product }) {
 
         {/* Card Metadata */}
         <div className="tiora-card-info">
+
           <h3 className="tiora-card-title" title={name}>
             {name}
           </h3>
 
-          <p className="tiora-card-tag">{styleTag}</p>
+          <p className="tiora-card-tag">
+            {styleTag}
+          </p>
+
+          {/* Price */}
+          <p className="tiora-card-price">
+            {price || '₹'}
+          </p>
 
           {/* Black Rounded Pill CTA Button */}
           <a
@@ -93,6 +114,7 @@ export default function ProductCard({ product }) {
           >
             <span>SHOP NOW →</span>
           </a>
+
         </div>
       </article>
 

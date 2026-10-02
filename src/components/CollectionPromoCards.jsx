@@ -40,7 +40,7 @@ export default function CollectionPromoCards({ onNavigate }) {
         <div className="tiora-promo-content">
           <h3 className="tiora-promo-title">
             <span>WOMEN'S</span>
-            <span>COLLECTION</span>
+            <span>FASHION</span>
           </h3>
 
           <button
@@ -84,7 +84,7 @@ export default function CollectionPromoCards({ onNavigate }) {
         <div className="tiora-promo-content">
           <h3 className="tiora-promo-title">
             <span>MEN'S</span>
-            <span>COLLECTION</span>
+            <span>FASHION</span>
           </h3>
 
           <button

@@ -196,12 +196,12 @@ export default function CollectionPage({
                 {isWomen ? (
                   <>
                     <span>Women's</span>
-                    <span>Collection</span>
+                    <span>Looks</span>
                   </>
                 ) : (
                   <>
                     <span>Men's</span>
-                    <span>Collection</span>
+                    <span>Looks</span>
                   </>
                 )}
               </h1>

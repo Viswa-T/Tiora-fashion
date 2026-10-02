@@ -1,11 +1,16 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Popup() {
   const [showPopup, setShowPopup] = useState(false);
 
+  const navigate = useNavigate();
+
   useEffect(() => {
     // Show only if popup hasn't already been closed
-    const popupClosed = sessionStorage.getItem("tiora-popup-closed");
+    const popupClosed = sessionStorage.getItem(
+      "tiora-popup-closed"
+    );
 
     if (!popupClosed) {
       const timer = setTimeout(() => {
@@ -19,20 +24,23 @@ export default function Popup() {
   const closePopup = () => {
     setShowPopup(false);
 
-    // Remember that the popup was closed
-    sessionStorage.setItem("tiora-popup-closed", "true");
+    // Remember that popup was closed
+    sessionStorage.setItem(
+      "tiora-popup-closed",
+      "true"
+    );
   };
 
   // SHOP NOW → Men's page
   const goToMen = () => {
     closePopup();
-    window.location.href = "/men";
+    navigate("/men");
   };
 
   // GO TO STORE → Discover page
   const goToDiscover = () => {
     closePopup();
-    window.location.href = "/discover";
+    navigate("/discover");
   };
 
   if (!showPopup) return null;
@@ -82,4 +90,4 @@ export default function Popup() {
 
     </div>
   );
-}   
+}

@@ -494,7 +494,82 @@ const products = [
   "image": "/products/men/men-000.png",
   "amazonUrl": "https://link.amazon/B02pGysUM"
 },
+{
+  "id": 102,
+  "name": "Relaxed Fit Denim Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-003.png",
+  "amazonUrl": "https://link.amazon/B0gzd9dhP"
+},
+{
+  "id": 103,
+  "name": "Modern Relaxed Fit Casual Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-0004.png",
+  "amazonUrl": "https://link.amazon/B0dpoSKeS"
+},
 
+{
+  "id": 104,
+  "name": "Cotton Linen Blend Casual Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-01.png",
+  "amazonUrl": "https://link.amazon/B0ejvLTZr"
+  
+},
+
+{
+  "id": 105,
+  "name": "Striped Resort Camp Collar Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-bla.png",
+  "amazonUrl": "https://link.amazon/B02VobXi4"
+},
+
+{
+  "id": 106,
+  "name": "Minimal Casual Overshirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-0004 .png",
+  "amazonUrl": "https://link.amazon/B07dyhRfV"
+},
+{
+  "id": 107,
+  "name": "Slim Fit Everyday Casual Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-9090.png",
+  "amazonUrl": "https://link.amazon/B0gFNZqGf"
+},
+{
+  "id": 108,
+  "name": "Acid Wash Streetwear Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-blue.png",
+  "amazonUrl": "https://link.amazon/B0ai3fDJs"
+},
+{
+  "id": 109,
+  "name": "Casual Utility Pocket Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-red.jpg",
+  "amazonUrl": "https://link.amazon/B05Jmo2M5"
+},
+{
+  "id": 110,
+  "name": "Vintage Oversized Washed Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-009.jpg",
+  "amazonUrl": "https://link.amazon/B0e0maS9G"
+},
 {
   "id": 111,
   "name": "Embroidered Casual Cotton Shirt",
@@ -505,24 +580,13 @@ const products = [
 },
 
 {
-  "id": 102,
-  "name": "Relaxed Fit Denim Shirt",
+  "id": 112,
+  "name": "Casual Suede Style Shirt",
   "category": "men",
   "subcategory": "shirts",
-  "image": "/products/men/men-003.png",
-  "amazonUrl": "https://link.amazon/B0gzd9dhP"
+  "image": "/products/men/men-013.jpg",
+  "amazonUrl": "https://link.amazon/B0gmA4gFr"
 },
-
-
-{
-  "id": 106,
-  "name": "Minimal Casual Overshirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-0004 .png",
-  "amazonUrl": "https://link.amazon/B07dyhRfV"
-},
-
 {
   "id": 1001,
   "name": "Casual Oversized Boxy Shirt",
@@ -572,79 +636,14 @@ const products = [
   "amazonUrl": "https://link.amazon/B0bZStJak"
 },
 {
-  "id": 110,
-  "name": "Vintage Oversized Washed Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-009.jpg",
-  "amazonUrl": "https://link.amazon/B0e0maS9G"
-},
-{
-  "id": 109,
-  "name": "Casual Utility Pocket Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-red.jpg",
-  "amazonUrl": "https://link.amazon/B05Jmo2M5"
-},
-{
-  "id": 105,
-  "name": "Striped Resort Camp Collar Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-bla.png",
-  "amazonUrl": "https://link.amazon/B02VobXi4"
-},
-{
-  "id": 107,
-  "name": "Slim Fit Everyday Casual Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-9090.png",
-  "amazonUrl": "https://link.amazon/B0gFNZqGf"
-},
-{
-  "id": 112,
-  "name": "Casual Suede Style Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-013.jpg",
-  "amazonUrl": "https://link.amazon/B0gmA4gFr"
-},
-{
-  "id": 108,
-  "name": "Acid Wash Streetwear Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-blue.png",
-  "amazonUrl": "https://link.amazon/B0ai3fDJs"
-},
-{
-  "id": 104,
-  "name": "Cotton Linen Blend Casual Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-01.png",
-  "amazonUrl": "https://link.amazon/B0ejvLTZr"
-},
-{
-  "id": 103,
-  "name": "Modern Relaxed Fit Casual Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-0004.png",
-  "amazonUrl": "https://link.amazon/B0dpoSKeS"
-},
-
-{
-  "id": 1019,
-  "name": "Classic Textured Slim Fit Polo",
-  "category": "men",
-  "subcategory": "polo t-shirts",
-  "image": "/products/men/men-019.jpg",
-  "amazonUrl": "https://link.amazon/B0gijhf7z"
-},
-{
+    "id": 1019,
+    "name": "Classic Textured Slim Fit Polo",
+    "category": "men",
+    "subcategory": "polo t-shirts",
+    "image": "/products/men/men-019.jpg",
+    "amazonUrl": "https://link.amazon/B0gijhf7z"
+  },
+  {
   "id": 1020,
   "name": "Premium Cotton Casual Polo",
   "category": "men",

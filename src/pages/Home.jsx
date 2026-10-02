@@ -5,6 +5,7 @@ import HeroCarousel from '../components/HeroCarousel';
 import CollectionPromoCards from '../components/CollectionPromoCards';
 import ProductGrid from '../components/ProductGrid';
 import Footer from '../components/Footer';
+import Popup from '../components/Popup';
 
 export default function Home({ products = [], onNavigate }) {
   // Curate a trending subset of products (3 women + 3 men = 6 items)
@@ -14,8 +15,8 @@ export default function Home({ products = [], onNavigate }) {
     const men = products.filter((p) => p.category === 'men');
 
     // Pick top items
-    const selectedWomen = women.slice(0, 3);
-    const selectedMen = men.slice(0, 3);
+    const selectedWomen = women.slice(0, 4);
+    const selectedMen = men.slice(0, 4);
 
     return [...selectedWomen, ...selectedMen];
   }, [products]);
@@ -32,6 +33,7 @@ export default function Home({ products = [], onNavigate }) {
 
   return (
     <div className="tiora-page-wrapper">
+      <Popup />
       <AnnouncementBar />
 
       <div className="tiora-main-container">

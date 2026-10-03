@@ -542,8 +542,17 @@ const products = [
   "category": "men",
   "subcategory": "shirts",
   "image": "/products/men/men-000.png",
-  "price": "₹398",
-  "amazonUrl": "https://link.amazon/B02pGysUM"
+  "price": "₹ 398",
+  "amazonUrl": "https://link.amazon/B0fJQPfzf"
+},
+{
+  "id": 612,
+  "name": "Classic Regular Fit Casual Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-300.png",
+  "price": "₹ 498",
+  "amazonUrl": "https://link.amazon/B0iIrEICn"
 },
 {
   "id": 605,
@@ -552,7 +561,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-003.png",
   "price": "₹ 499",
-  "amazonUrl": "https://link.amazon/B0gzd9dhP"
+  "amazonUrl": "https://link.amazon/B024tyEds"
 },
 {
   "id": 610,
@@ -561,7 +570,16 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-0004.png",
   "price": "₹ 398",
-  "amazonUrl": "https://link.amazon/B0dpoSKeS"
+  "amazonUrl": "https://link.amazon/B06kNPhkh"
+},
+{
+  "id": 611,
+  "name": "Classic Regular Fit Casual Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-600.png",
+  "price": "₹ 449",
+  "amazonUrl": "https://link.amazon/B01EsLcS3"
 },
 {
   "id": 615,
@@ -570,7 +588,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-01.png",
   "price": "₹ 398",
-  "amazonUrl": "https://link.amazon/B0ejvLTZr"
+  "amazonUrl": "https://link.amazon/B0gOFHldc"
 },
 {
   "id": 620,
@@ -579,7 +597,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-bla.png",
   "price": "₹ 499",
-  "amazonUrl": "https://link.amazon/B02VobXi4"
+  "amazonUrl": "https://link.amazon/B02rNw8Lx"
 },
 {
   "id": 625,
@@ -588,7 +606,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-0004 .png",
   "price": "₹ 678",
-  "amazonUrl": "https://link.amazon/B07dyhRfV"
+  "amazonUrl": "https://link.amazon/B09djlznJ"
 },
 {
   "id": 630,
@@ -606,7 +624,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-blue.png",
   "price": "₹ 454",
-  "amazonUrl": "https://link.amazon/B0ai3fDJs"
+  "amazonUrl": "https://link.amazon/B0agQaYMH"
 },
 {
   "id": 640,
@@ -615,7 +633,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-red.jpg",
   "price": "₹ 499",
-  "amazonUrl": "https://link.amazon/B05Jmo2M5"
+  "amazonUrl": "https://link.amazon/B06ePRVCP"
 },
 {
   "id": 645,
@@ -624,7 +642,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-009.jpg",
   "price": "₹ 437",
-  "amazonUrl": "https://link.amazon/B0e0maS9G"
+  "amazonUrl": "https://link.amazon/B04jBusx0"
 },
 {
   "id": 650,
@@ -633,7 +651,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-008.jpg",
   "price": "₹ 499",
-  "amazonUrl": "https://link.amazon/B0hodnyoQ"
+  "amazonUrl": "https://link.amazon/B02ADWVge"
 },
 {
   "id": 655,
@@ -642,7 +660,7 @@ const products = [
   "subcategory": "shirts",
   "image": "/products/men/men-013.jpg",
   "price": "₹ 449",
-  "amazonUrl": "https://link.amazon/B0gmA4gFr"
+  "amazonUrl": "https://link.amazon/B0epXwUlz"
 },
 {
   "id": 660,
@@ -705,7 +723,7 @@ const products = [
   "subcategory": "polo t-shirts",
   "image": "/products/men/men-019.jpg",
   "price": "₹ 499",
-  "amazonUrl": "https://link.amazon/B0gijhf7z"
+  "amazonUrl": "https://link.amazon/B0e84hFbL"
 },
 {
   "id": 695,
@@ -714,7 +732,7 @@ const products = [
   "subcategory": "polo t-shirts",
   "image": "/products/men/men-020.jpg",
   "price": "₹ 298",
-  "amazonUrl": "https://link.amazon/B0ccFAtFE"
+  "amazonUrl": "https://link.amazon/B053xVLUm"
 },
 {
   "id": 700,
@@ -723,7 +741,7 @@ const products = [
   "subcategory": "polo t-shirts",
   "image": "/products/men/men-021.jpg",
   "price": "₹ 229",
-  "amazonUrl": "https://link.amazon/B0frGhxNL"
+  "amazonUrl": "https://link.amazon/B02xYA4dw"
 },
 {
   "id": 705,
@@ -732,7 +750,7 @@ const products = [
   "subcategory": "polo t-shirts",
   "image": "/products/men/men-022.jpg",
   "price": "₹ 284",
-  "amazonUrl": "https://link.amazon/B03nbToVG"
+  "amazonUrl": "https://link.amazon/B0jcuF5Xq"
 },
 {
   "id": 710,
@@ -741,7 +759,7 @@ const products = [
   "subcategory": "polo t-shirts",
   "image": "/products/men/men-023.jpg",
   "price": "₹ 286",
-  "amazonUrl": "https://link.amazon/B05edVdLX"
+  "amazonUrl": "https://link.amazon/B081Oi40g"
 },
 {
   "id": 715,

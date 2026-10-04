@@ -829,7 +829,7 @@ const products = [
   "name": "Straight Fit Korean Casual Trousers",
   "category": "men",
   "subcategory": "korean trouser",
-  "image": "/products/men/men-031.jpg",
+  "image": "/products/men/men-030.jpg",
   "price": "₹ 599",
   "amazonUrl": "https://link.amazon/B05CY3LEy"
 },

@@ -22,9 +22,8 @@ export default function Footer({ onNavigate }) {
           </div>
           <p className="tiora-footer-tagline">FIND · FEEL · FLEX</p>
           <p className="tiora-footer-desc">
-            TIORA is your premier fashion discovery feed. We hand-curate modern,
-            timeless, and streetwear looks directly connected to official Amazon
-            and Meesho collections.
+            TIORA is a fashion discovery platform where we hand-curate modern, timeless,
+             and streetwear looks and connect you to products available through official Amazon and Meesho collections.
           </p>
 
           <a
@@ -103,9 +102,8 @@ export default function Footer({ onNavigate }) {
       {/* Affiliate Disclosure & Legal */}
       <div className="tiora-footer-bottom">
         <p className="tiora-footer-disclosure">
-          <strong>Affiliate Disclosure:</strong> TIORA is a participant in affiliate advertising programs,
-          including the Amazon Services LLC Associates Program and the Meesho Affiliate Program,
-          designed to provide a means for sites to earn advertising fees by linking to qualifying products.
+          <strong>Affiliate Disclosure:</strong> TIORA participates in affiliate advertising programs, including the Amazon Services LLC Associates Program and the Meesho Affiliate Program. This means we may earn a commission when
+           you purchase through qualifying links on our website.
         </p>
 
         <p className="tiora-footer-copy">

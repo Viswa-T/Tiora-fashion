@@ -546,15 +546,6 @@ const products = [
   "amazonUrl": "https://link.amazon/B0fJQPfzf"
 },
 {
-  "id": 612,
-  "name": "Classic Regular Fit Casual Shirt",
-  "category": "men",
-  "subcategory": "shirts",
-  "image": "/products/men/men-300.png",
-  "price": "₹ 498",
-  "amazonUrl": "https://link.amazon/B0iIrEICn"
-},
-{
   "id": 605,
   "name": "Relaxed Fit Denim Shirt",
   "category": "men",
@@ -580,6 +571,15 @@ const products = [
   "image": "/products/men/men-600.png",
   "price": "₹ 449",
   "amazonUrl": "https://link.amazon/B01EsLcS3"
+},
+{
+  "id": 612,
+  "name": "Classic Regular Fit Casual Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-300.png",
+  "price": "₹ 498",
+  "amazonUrl": "https://link.amazon/B0iIrEICn"
 },
 {
   "id": 615,

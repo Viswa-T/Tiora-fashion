@@ -98,11 +98,6 @@ export default function ProductCard({ product }) {
             {styleTag}
           </p>
 
-          {/* Price */}
-          <p className="tiora-card-price">
-            {price || '₹'}
-          </p>
-
           {/* Black Rounded Pill CTA Button */}
           <a
             href={amazonUrl || '#'}

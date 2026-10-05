@@ -538,7 +538,7 @@ const products = [
 
 {
   "id": 600,
-  "name": "Classic Regular Fit Casual Shirt",
+  "name": "Red Striped Shirt",
   "category": "men",
   "subcategory": "shirts",
   "image": "/products/men/men-000.png",
@@ -556,7 +556,16 @@ const products = [
 },
 {
   "id": 610,
-  "name": "Modern Relaxed Fit Casual Shirt",
+  "name": "Black Striped Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-exp.png",
+  "price": "₹ 577",
+  "amazonUrl": "https://link.amazon/B04fJuFg4"
+},
+{
+  "id": 611,
+  "name": "Blue Striped Shirt",
   "category": "men",
   "subcategory": "shirts",
   "image": "/products/men/men-0004.png",
@@ -564,8 +573,8 @@ const products = [
   "amazonUrl": "https://link.amazon/B06kNPhkh"
 },
 {
-  "id": 611,
-  "name": "Classic Regular Fit Casual Shirt",
+  "id": 612,
+  "name": "Party Wear Shirt",
   "category": "men",
   "subcategory": "shirts",
   "image": "/products/men/men-600.png",
@@ -573,8 +582,17 @@ const products = [
   "amazonUrl": "https://link.amazon/B01EsLcS3"
 },
 {
-  "id": 612,
-  "name": "Classic Regular Fit Casual Shirt",
+  "id": 613,
+  "name": "Pink Starboy Style",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-pink.png",
+  "price": "₹ 479",
+  "amazonUrl": "https://link.amazon/B0gFce6Mt"
+},
+{
+  "id": 614,
+  "name": "Tan Striped Shirt",
   "category": "men",
   "subcategory": "shirts",
   "image": "/products/men/men-300.png",

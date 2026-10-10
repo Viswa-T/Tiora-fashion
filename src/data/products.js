@@ -16,7 +16,7 @@
 
 const products = [
   {
-    "id": 1,
+    "id": 100,
     "name": "Pleated A-Line Mini Skirt",
     "category": "women",
     "subcategory": "skirts",
@@ -25,7 +25,16 @@ const products = [
     "amazonUrl": "https://link.amazon/B0cC4BY12"
   },
   {
-    "id": 2,
+    "id": 106,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-78.png",
+    "price": "₹ 455",
+    "amazonUrl": "https://link.amazon/B01tNnUe0"
+  },
+  {
+    "id": 105,
     "name": "Relaxed Fit Casual Top",
     "category": "women",
     "subcategory": "tops",
@@ -34,7 +43,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B043nwj8v"
   },
   {
-    "id": 3,
+    "id": 110,
     "name": "Ribbed Knit Fitted T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -43,7 +52,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B06PvR4A5"
   },
   {
-    "id": 4,
+    "id": 115,
     "name": "Cropped Casual Denim Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -52,7 +61,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B09CN665V"
   },
   {
-    "id": 5,
+    "id": 120,
     "name": "Cropped Casual Denim Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -61,7 +70,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04RkW6lC"
   },
   {
-    "id": 6,
+    "id": 125,
     "name": "Lightweight Casual Linen Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -70,7 +79,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B08FEeKot"
   },
   {
-    "id": 7,
+    "id": 130,
     "name": "Pleated A-Line Midi Skirt",
     "category": "women",
     "subcategory": "skirts",
@@ -79,7 +88,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B07sWwMHl"
   },
   {
-    "id": 8,
+    "id": 135,
     "name": "Embroidered Flared Midi Skirt",
     "category": "women",
     "subcategory": "skirts",
@@ -88,7 +97,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0dtrFQzX"
   },
   {
-    "id": 9,
+    "id": 140,
     "name": "Cropped Utility Casual Skirt",
     "category": "women",
     "subcategory": "skirts",
@@ -97,7 +106,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0i5LVDgu"
   },
   {
-    "id": 10,
+    "id": 145,
     "name": "Minimalist Structured Mini Skirt",
     "category": "women",
     "subcategory": "skirts",
@@ -106,7 +115,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04Qyyngw"
   },
   {
-    "id": 11,
+    "id": 150,
     "name": "Boxy Striped Cotton Jeans",
     "category": "women",
     "subcategory": "jeans",
@@ -115,7 +124,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0hDsVZI3"
   },
   {
-    "id": 12,
+    "id": 155,
     "name": "High-Waist Relaxed Fit Jeans",
     "category": "women",
     "subcategory": "jeans",
@@ -124,7 +133,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B024MGpJd"
   },
   {
-    "id": 13,
+    "id": 160,
     "name": "Relaxed Fit Casual Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -133,7 +142,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B02erTHba"
   },
   {
-    "id": 14,
+    "id": 165,
     "name": "Chunky Knit Oversized Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -142,7 +151,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0aT2bYhc"
   },
   {
-    "id": 15,
+    "id": 170,
     "name": "Boho Chiffon Printed Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -151,7 +160,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04vSaV34"
   },
   {
-    "id": 16,
+    "id": 175,
     "name": "Casual Denim Oversized Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -160,7 +169,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04ybRA0e"
   },
   {
-    "id": 17,
+    "id": 180,
     "name": "Relaxed Fit Graphic T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -169,7 +178,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04vhdBzx"
   },
   {
-    "id": 18,
+    "id": 185,
     "name": "Oversized Casual Cotton T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -178,7 +187,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B034KKG2V"
   },
   {
-    "id": 19,
+    "id": 190,
     "name": "Vintage Wash Fitted T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -187,7 +196,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B06Gh27Gq"
   },
   {
-    "id": 20,
+    "id": 195,
     "name": "Cropped Ribbed Everyday T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -196,7 +205,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0eX7bwoZ"
   },
   {
-    "id": 21,
+    "id": 200,
     "name": "Classic Oversized Streetwear T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -205,7 +214,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B02rwxNOe"
   },
   {
-    "id": 22,
+    "id": 205,
     "name": "Minimal Casual Crew Neck T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -214,7 +223,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B05aTtIE8"
   },
   {
-    "id": 23,
+    "id": 210,
     "name": "Relaxed Drop-Shoulder T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -223,7 +232,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0ic5bLnn"
   },
   {
-    "id": 24,
+    "id": 215,
     "name": "Relaxed Fit Cotton Graphic T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -232,7 +241,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0gVNBpwc"
   },
   {
-    "id": 25,
+    "id": 220,
     "name": "High-Waist Wide-Leg Denim Jeans",
     "category": "women",
     "subcategory": "jeans",
@@ -241,7 +250,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B085B7LtN"
   },
   {
-    "id": 26,
+    "id": 225,
     "name": "Relaxed Straight Fit Washed Jeans",
     "category": "women",
     "subcategory": "jeans",
@@ -250,7 +259,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0guNAN29"
   },
   {
-    "id": 27,
+    "id": 230,
     "name": "Oversized Relaxed Fit Casual Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -259,7 +268,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B05IfbsGf"
   },
   {
-    "id": 28,
+    "id": 235,
     "name": "Classic Striped Cotton Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -268,7 +277,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B093Ug24M"
   },
   {
-    "id": 29,
+    "id": 240,
     "name": "Relaxed Button-Down Casual Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -277,7 +286,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04TltwTW"
   },
   {
-    "id": 30,
+    "id": 245,
     "name": "Cropped Oversized Everyday Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -286,7 +295,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0gf18dU2"
   },
   {
-    "id": 31,
+    "id": 250,
     "name": "Floral Print Relaxed Fit Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -295,7 +304,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B02TSmjLr"
   },
   {
-    "id": 32,
+    "id": 255,
     "name": "Minimal Linen Blend Casual Shirt",
     "category": "women",
     "subcategory": "shirts",
@@ -304,7 +313,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0ertbnIF"
   },
   {
-    "id": 33,
+    "id": 260,
     "name": "Ribbed Fitted Casual Top",
     "category": "women",
     "subcategory": "tops",
@@ -313,7 +322,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B02qVFn0r"
   },
   {
-    "id": 34,
+    "id": 265,
     "name": "Cropped Textured Everyday Top",
     "category": "women",
     "subcategory": "tops",
@@ -322,7 +331,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0dvcE7Qb"
   },
   {
-    "id": 35,
+    "id": 270,
     "name": "Relaxed Straight Fit Casual Pants",
     "category": "women",
     "subcategory": "pants",
@@ -331,7 +340,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0ebcPBd0"
   },
   {
-    "id": 36,
+    "id": 275,
     "name": "Relaxed Straight Fit Casual Pants",
     "category": "women",
     "subcategory": "pants",
@@ -340,7 +349,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B05P6IAsg"
   },
   {
-    "id": 37,
+    "id": 280,
     "name": "Relaxed Straight Fit Casual Pants",
     "category": "women",
     "subcategory": "pants",
@@ -349,7 +358,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0jhqnK4O"
   },
   {
-    "id": 38,
+    "id": 285,
     "name": "Relaxed Straight Fit Casual Pants",
     "category": "women",
     "subcategory": "pants",
@@ -358,7 +367,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B07bUjS55"
   },
   {
-    "id": 39,
+    "id": 290,
     "name": "Minimal Ribbed Crop Top",
     "category": "women",
     "subcategory": "tops",
@@ -367,7 +376,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0bjn2v1n"
   },
   {
-    "id": 40,
+    "id": 295,
     "name": "Oversized Vintage Wash T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -376,7 +385,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B048LIZib"
   },
   {
-    "id": 50,
+    "id": 300,
     "name": "Classic Oversized Cotton T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -385,7 +394,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B08inkb27"
   },
   {
-    "id": 51,
+    "id": 305,
     "name": "Cropped Ribbed Casual T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -394,7 +403,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0j6m5Zrk"
   },
   {
-    "id": 52,
+    "id": 310,
     "name": "Relaxed Graphic Streetwear T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -403,7 +412,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0cnerl0T"
   },
   {
-    "id": 53,
+    "id": 315,
     "name": "Slim Fit Everyday Cotton T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -412,7 +421,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0fa5Ntpu"
   },
   {
-    "id": 54,
+    "id": 320,
     "name": "Boxy Fit Minimal Crew Neck T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",
@@ -421,7 +430,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B07rsKAtu"
   },
   {
-    "id": 55,
+    "id": 325,
     "name": "Elegant Ribbed Fitted Top",
     "category": "women",
     "subcategory": "tops",
@@ -430,7 +439,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B09n5Zyl6"
   },
   {
-    "id": 56,
+    "id": 330,
     "name": "Cropped Textured Casual Top",
     "category": "women",
     "subcategory": "tops",
@@ -439,7 +448,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0d66tuls"
   },
   {
-    "id": 57,
+    "id": 335,
     "name": "Relaxed Fit Printed Top",
     "category": "women",
     "subcategory": "tops",
@@ -448,7 +457,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B07VygcIp"
   },
   {
-    "id": 58,
+    "id": 340,
     "name": "Minimalist Sleeveless Casual Top",
     "category": "women",
     "subcategory": "tops",
@@ -457,7 +466,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B09Wp73II"
   },
   {
-    "id": 59,
+    "id": 345,
     "name": "Ribbed Fitted Everyday Top",
     "category": "women",
     "subcategory": "tops",
@@ -466,7 +475,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0dU9oZ35"
   },
   {
-    "id": 60,
+    "id": 350,
     "name": "Cropped Textured Casual Top",
     "category": "women",
     "subcategory": "tops",
@@ -475,7 +484,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B07GmaTBA"
   },
   {
-    "id": 62,
+    "id": 355,
     "name": "Cropped Utility Denim Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -484,7 +493,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0iBis7wZ"
   },
   {
-    "id": 63,
+    "id": 360,
     "name": "Oversized Washed Denim Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -493,7 +502,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B06W0UFm8"
   },
   {
-    "id": 64,
+    "id": 365,
     "name": "Classic Relaxed Fit Casual Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -502,7 +511,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0g4myBM0"
   },
   {
-    "id": 65,
+    "id": 370,
     "name": "Minimal Quilted Casual Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -511,7 +520,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0gSmjhaq"
   },
   {
-    "id": 66,
+    "id": 375,
     "name": "Vintage Cropped Casual Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -519,8 +528,6 @@ const products = [
     "price": "₹ 519",
     "amazonUrl": "https://link.amazon/B00oNXDy3"
   },
-
-
 
 
 
@@ -544,6 +551,15 @@ const products = [
   "image": "/products/men/men-000.png",
   "price": "₹ 398",
   "amazonUrl": "https://link.amazon/B0fJQPfzf"
+},
+{
+  "id": 601,
+  "name": "Tan Striped Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-9899.png",
+  "price": "₹ 398",
+  "amazonUrl": "https://link.amazon/B01A99fn9"
 },
 {
   "id": 605,
@@ -592,6 +608,15 @@ const products = [
 },
 {
   "id": 614,
+  "name": "Green checked Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-878.png",
+  "price": "₹ 460",
+  "amazonUrl": "https://link.amazon/B0d1wl2qE"
+},
+{
+  "id": 615,
   "name": "Tan Striped Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -600,7 +625,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B0iIrEICn"
 },
 {
-  "id": 615,
+  "id": 616,
   "name": "Cotton Linen Blend Casual Shirt",
   "category": "men",
   "subcategory": "shirts",

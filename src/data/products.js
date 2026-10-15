@@ -617,6 +617,33 @@ const products = [
 },
 {
   "id": 615,
+  "name": "Brown checked Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-bro.png",
+  "price": "₹ 460",
+  "amazonUrl": "https://link.amazon/B0bNrvDMf"
+},
+{
+  "id": 616,
+  "name": "Pink Striped Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-pin.png",
+  "price": "₹ 460",
+  "amazonUrl": "https://link.amazon/B0a5URCa4"
+},
+{
+  "id": 617,
+  "name": "Green checked Shirt",
+  "category": "men",
+  "subcategory": "shirts",
+  "image": "/products/men/men-che.png",
+  "price": "₹ 460",
+  "amazonUrl": "https://link.amazon/B02A4fGXB"
+},
+{
+  "id": 618,
   "name": "Tan Striped Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -625,7 +652,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B0iIrEICn"
 },
 {
-  "id": 616,
+  "id": 619,
   "name": "Cotton Linen Blend Casual Shirt",
   "category": "men",
   "subcategory": "shirts",

@@ -59,7 +59,7 @@ export default function Popup({ onNavigate }) {
 
         {/* Poster */}
         <img
-          src="/products/men-pop.png"
+          src="/products/popup.png"
           alt="TIORA Premium Shirts"
           className="tiora-popup-image"
         />

@@ -670,7 +670,79 @@ const products = [
   "amazonUrl": "https://link.amazon/B02rNw8Lx"
 },
 {
+  "id": 621,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-t.png",
+  "price": "₹ 499",
+  "amazonUrl": "https://link.amazon/B03Rm9geD"
+},
+{
+  "id": 622,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-papi.png",
+  "price": "₹ 479",
+  "amazonUrl": "https://link.amazon/B03c07GoW"
+},
+{
+  "id": 623,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-oli.png",
+  "price": "₹ 499",
+  "amazonUrl": "https://link.amazon/B02y4V20u"
+},
+{
+  "id": 624,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-sky.jpg",
+  "price": "₹ 448",
+  "amazonUrl": "https://link.amazon/B07Jexp0D"
+},
+{
   "id": 625,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-soul.png",
+  "price": "₹ 371",
+  "amazonUrl": "https://link.amazon/B04GSjAbw"
+},
+{
+  "id": 626,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-yell.png",
+  "price": "₹ 448",
+  "amazonUrl": "https://link.amazon/B05meAsYN"
+},
+{
+  "id": 627,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-dis.png",
+  "price": "₹ 489",
+  "amazonUrl": "https://link.amazon/B0fXMKiJp"
+},
+{
+  "id": 628,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-uni.png",
+  "price": "₹ 299",
+  "amazonUrl": "https://link.amazon/B0iQs1dmO"
+},
+{
+  "id": 629,
   "name": "Minimal Casual Overshirt",
   "category": "men",
   "subcategory": "shirts",

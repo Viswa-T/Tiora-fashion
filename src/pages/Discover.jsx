@@ -111,6 +111,7 @@ export default function Discover({ products = [], onNavigate }) {
                 className="tiora-col-hero-img"
                 style={{ objectPosition: 'center 20%' }}
                 loading="eager"
+                fetchpriority="high"
               />
               <div className="tiora-col-hero-overlay" />
             </div>

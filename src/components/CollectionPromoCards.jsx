@@ -33,6 +33,7 @@ export default function CollectionPromoCards({ onNavigate }) {
             alt="Women's Collection"
             className="tiora-promo-img"
             loading="eager"
+            fetchpriority="high"
           />
           <div className="tiora-promo-overlay" />
         </div>
@@ -77,6 +78,7 @@ export default function CollectionPromoCards({ onNavigate }) {
             alt="Men's Collection"
             className="tiora-promo-img"
             loading="eager"
+            fetchpriority="high"
           />
           <div className="tiora-promo-overlay" />
         </div>

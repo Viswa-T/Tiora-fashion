@@ -80,6 +80,7 @@ export default function ProductCard({ product }) {
             alt={name || 'Fashion Product'}
             className="tiora-card-image"
             loading="eager"
+            fetchpriority="high"
             onError={(e) => {
               e.currentTarget.onerror = null;
               e.currentTarget.style.backgroundColor = '#EFE9E2';

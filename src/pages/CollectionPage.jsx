@@ -199,6 +199,7 @@ export default function CollectionPage({
                 alt={isWomen ? "Women's Collection Cover" : "Men's Collection Cover"}
                 className="tiora-col-hero-img"
                 loading="eager"
+                fetchpriority="high"
               />
               <div className="tiora-col-hero-overlay" />
             </div>

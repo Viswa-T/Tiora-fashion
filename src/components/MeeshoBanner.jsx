@@ -20,6 +20,7 @@ export default function MeeshoBanner({ category = 'women' }) {
             alt={isWomen ? "Women's Meesho Collection" : "Men's Meesho Collection"}
             className="tiora-meesho-img"
             loading="eager"
+            fetchpriority="high"
           />
           <div className="tiora-meesho-overlay" />
         </div>

@@ -69,6 +69,7 @@ export default function ProductPreviewModal({ product, isOpen, onClose }) {
             alt={name || 'Fashion Product'}
             className="tiora-preview-image"
             loading="eager"
+            fetchpriority="high"
             onError={(e) => {
               e.currentTarget.onerror = null;
               e.currentTarget.style.backgroundColor = '#EAE4DC';

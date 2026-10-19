@@ -45,6 +45,7 @@ export default function CategoryNav({
                     alt={cat.label}
                     className="tiora-cat-img"
                     loading="eager"
+                    fetchpriority="high"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
                     }}

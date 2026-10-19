@@ -187,6 +187,7 @@ export default function HeroCarousel({ onNavigate }) {
                   className="tiora-hero-image"
                   style={{ objectPosition: slide.imgPosition }}
                   loading="eager"
+                  fetchpriority="high"
                 />
               </div>
             </div>

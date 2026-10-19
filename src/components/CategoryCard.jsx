@@ -22,7 +22,8 @@ export default function CategoryCard({ title, image, path, onNavigate }) {
         src={image}
         alt={title}
         className="tiora-category-image"
-        loading="lazy"
+        loading="eager"
+        fetchpriority="high"
         onError={(e) => {
           // fallback in case of missing image
           e.currentTarget.src = title.toLowerCase().includes('women')

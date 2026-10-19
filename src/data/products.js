@@ -1021,12 +1021,21 @@ const products = [
   "amazonUrl": "https://link.amazon/B0eXNaUrR"
 },
 {
+  "id": 779,
+  "name": "Minimal Streetwear Casual Sneakers",
+  "category": "men",
+  "subcategory": "shoes",
+  "image": "/products/men/men-sho.jpg",
+  "price": "₹ 510",
+  "amazonUrl": "https://link.amazon/B00zbK4lu"
+},
+{
   "id": 780,
   "name": "Minimal Streetwear Casual Sneakers",
   "category": "men",
   "subcategory": "shoes",
   "image": "/products/men/men-037.jpg",
-  "price": "₹ 799",
+  "price": "₹ 694",
   "amazonUrl": "https://link.amazon/B05J54XEw"
 },
 {
@@ -1035,7 +1044,7 @@ const products = [
   "category": "men",
   "subcategory": "shoes",
   "image": "/products/men/men-038.jpg",
-  "price": "₹ 3,146",
+  "price": "₹ 3,370",
   "amazonUrl": "https://link.amazon/B0fXgs2g4"
 },
 {
@@ -1053,7 +1062,7 @@ const products = [
   "category": "men",
   "subcategory": "watch",
   "image": "/products/men/men-040.jpg",
-  "price": "₹ 3,993",
+  "price": "₹ 3,995",
   "amazonUrl": "https://link.amazon/B0d5iahZb"
 },
 {
@@ -1071,7 +1080,7 @@ const products = [
   "category": "men",
   "subcategory": "coolers",
   "image": "/products/men/men-042.jpg",
-  "price": "₹ 465",
+  "price": "₹ 409",
   "amazonUrl": "https://link.amazon/B04fby0Wg"
 }
 

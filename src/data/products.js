@@ -728,21 +728,30 @@ const products = [
   "name": "UNISEX-T shirt",
   "category": "men",
   "subcategory": "t-shirts",
-  "image": "/products/men/men-dis.png",
-  "price": "₹ 489",
-  "amazonUrl": "https://link.amazon/B0fXMKiJp"
+  "image": "/products/men/men-uni.png",
+  "price": "₹ 299",
+  "amazonUrl": "https://link.amazon/B0iQs1dmO"
 },
 {
   "id": 628,
   "name": "UNISEX-T shirt",
   "category": "men",
   "subcategory": "t-shirts",
-  "image": "/products/men/men-uni.png",
-  "price": "₹ 299",
-  "amazonUrl": "https://link.amazon/B0iQs1dmO"
+  "image": "/products/men/men-dis.png",
+  "price": "₹ 489",
+  "amazonUrl": "https://link.amazon/B0fXMKiJp"
 },
 {
-  "id": 629,
+  "id": 630,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-spa.png",
+  "price": "₹ 269",
+  "amazonUrl": "https://link.amazon/B03ZIilqM"
+},
+{
+  "id": 633,
   "name": "Minimal Casual Overshirt",
   "category": "men",
   "subcategory": "shirts",
@@ -751,7 +760,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B09djlznJ"
 },
 {
-  "id": 630,
+  "id": 634,
   "name": "Slim Fit Everyday Casual Shirt",
   "category": "men",
   "subcategory": "shirts",

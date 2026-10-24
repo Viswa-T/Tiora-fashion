@@ -742,6 +742,15 @@ const products = [
   "amazonUrl": "https://link.amazon/B0fXMKiJp"
 },
 {
+  "id": 629,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-oo.png",
+  "price": "₹ 299",
+  "amazonUrl": "https://link.amazon/B07laX40j"
+},
+{
   "id": 630,
   "name": "UNISEX-T shirt",
   "category": "men",
@@ -749,6 +758,15 @@ const products = [
   "image": "/products/men/men-spa.png",
   "price": "₹ 269",
   "amazonUrl": "https://link.amazon/B03ZIilqM"
+},
+{
+  "id": 632,
+  "name": "UNISEX-T shirt",
+  "category": "men",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-roar.png",
+  "price": "₹ 269",
+  "amazonUrl": "https://link.amazon/B09fPnkcz"
 },
 {
   "id": 633,

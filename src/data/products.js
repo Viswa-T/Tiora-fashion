@@ -88,6 +88,15 @@ const products = [
     "amazonUrl": "https://link.amazon/B0bqi5aMX"
   },
   {
+    "id": 112,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-love.jpg",
+    "price": "₹ 336",
+    "amazonUrl": "https://link.amazon/B0hB4kqev"
+  },
+  {
     "id": 114,
     "name": "Ribbed Knit Fitted T-Shirt",
     "category": "women",

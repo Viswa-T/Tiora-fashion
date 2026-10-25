@@ -25,15 +25,6 @@ const products = [
     "amazonUrl": "https://link.amazon/B0cC4BY12"
   },
   {
-    "id": 106,
-    "name": "BodyCon dress",
-    "category": "women",
-    "subcategory": "skirts",
-    "image": "/products/women/women-78.png",
-    "price": "₹ 455",
-    "amazonUrl": "https://link.amazon/B01tNnUe0"
-  },
-  {
     "id": 105,
     "name": "Relaxed Fit Casual Top",
     "category": "women",
@@ -43,7 +34,61 @@ const products = [
     "amazonUrl": "https://link.amazon/B043nwj8v"
   },
   {
+    "id": 106,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-78.png",
+    "price": "₹ 455",
+    "amazonUrl": "https://link.amazon/B01tNnUe0"
+  },
+  {
+    "id": 107,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-poi.jpg",
+    "price": "₹ 369",
+    "amazonUrl": "https://link.amazon/B0hGDQ4eR"
+  },
+  {
+    "id": 108,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-lop.jpg",
+    "price": "₹ 430",
+    "amazonUrl": "https://link.amazon/B04E06GRs"
+  },
+  {
+    "id": 109,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-red.jpg",
+    "price": "₹ 899",
+    "amazonUrl": "https://link.amazon/B05gHeep9"
+  },
+  {
     "id": 110,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/women-llp.jpg",
+    "price": "₹ 429",
+    "amazonUrl": "https://link.amazon/B0hedjQ49"
+  },
+  {
+    "id": 111,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "skirts",
+    "image": "/products/women/uio.jpg",
+    "price": "₹ 336",
+    "amazonUrl": "https://link.amazon/B0bqi5aMX"
+  },
+  {
+    "id": 114,
     "name": "Ribbed Knit Fitted T-Shirt",
     "category": "women",
     "subcategory": "t-shirts",

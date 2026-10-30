@@ -34,7 +34,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B043nwj8v"
   },
   {
-    "id": 106,
+    "id": 109,
     "name": "BodyCon dress",
     "category": "women",
     "subcategory": "skirts",
@@ -52,7 +52,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B0hGDQ4eR"
   },
   {
-    "id": 108,
+    "id": 110,
     "name": "BodyCon dress",
     "category": "women",
     "subcategory": "skirts",
@@ -61,7 +61,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04E06GRs"
   },
   {
-    "id": 109,
+    "id": 111,
     "name": "BodyCon dress",
     "category": "women",
     "subcategory": "skirts",
@@ -70,7 +70,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B05gHeep9"
   },
   {
-    "id": 110,
+    "id": 106,
     "name": "BodyCon dress",
     "category": "women",
     "subcategory": "skirts",
@@ -79,8 +79,8 @@ const products = [
     "amazonUrl": "https://link.amazon/B0hedjQ49"
   },
   {
-    "id": 111,
-    "name": "BodyCon dress",
+    "id": 108,
+    "name": "Backless dress",
     "category": "women",
     "subcategory": "skirts",
     "image": "/products/women/uio.jpg",

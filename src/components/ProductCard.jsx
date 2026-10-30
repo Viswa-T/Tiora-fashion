@@ -98,7 +98,9 @@ export default function ProductCard({ product }) {
           <p className="tiora-card-tag">
             {styleTag}
           </p>
+            <p >{price}</p>
 
+           
           {/* Black Rounded Pill CTA Button */}
           <a
             href={amazonUrl || '#'}

@@ -19,7 +19,7 @@ export default function ProductPreviewModal({ product, isOpen, onClose }) {
 
   if (!isOpen || !product) return null;
 
-  const { name, image, category, subcategory, amazonUrl } = product;
+  const { name, image, category, subcategory, amazonUrl , price } = product;
 
   // Clean formatted category tag (e.g., "Tops | Casual")
   const categoryTag = subcategory
@@ -81,7 +81,8 @@ export default function ProductPreviewModal({ product, isOpen, onClose }) {
         <div className="tiora-preview-details">
           <span className="tiora-preview-category-tag">{categoryTag}</span>
           <h2 className="tiora-preview-title">{name}</h2>
-
+            
+<p >{price}</p>
           {/* Amazon Affiliate CTA */}
           <a
             href={amazonUrl || '#'}
@@ -90,6 +91,7 @@ export default function ProductPreviewModal({ product, isOpen, onClose }) {
             className="tiora-preview-amazon-btn"
             aria-label={`Shop ${name || 'product'} on Amazon (opens in new tab)`}
           >
+
             <span>SHOP ON AMAZON</span>
             <svg
               width="16"

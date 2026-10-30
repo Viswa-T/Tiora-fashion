@@ -2089,7 +2089,7 @@ ul, ol {
 }
 
 .tiora-preview-title {
-  font-family: var(--font-serif);
+  /*font-family: var(--font-serif);*/
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--color-text-main);

@@ -80,9 +80,8 @@ export default function ProductPreviewModal({ product, isOpen, onClose }) {
         {/* Content Details */}
         <div className="tiora-preview-details">
           <span className="tiora-preview-category-tag">{categoryTag}</span>
-          <h2 className="tiora-preview-title">{name}</h2>
+          <h2 className="tiora-preview-title">{price}</h2>
             
-<p >{price}</p>
           {/* Amazon Affiliate CTA */}
           <a
             href={amazonUrl || '#'}

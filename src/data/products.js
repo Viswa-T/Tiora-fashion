@@ -34,28 +34,46 @@ const products = [
     "amazonUrl": "https://link.amazon/B043nwj8v"
   },
   {
-    "id": 109,
+    "id": 106,
     "name": "BodyCon dress",
     "category": "women",
-    "subcategory": "skirts",
-    "image": "/products/women/women-78.png",
-    "price": "₹ 455",
-    "amazonUrl": "https://link.amazon/B01tNnUe0"
+    "subcategory": "western",
+    "image": "/products/women/women-llp.jpg",
+    "price": "₹ 429",
+    "amazonUrl": "https://link.amazon/B0hedjQ49"
   },
   {
     "id": 107,
     "name": "BodyCon dress",
     "category": "women",
-    "subcategory": "skirts",
+    "subcategory": "western",
     "image": "/products/women/women-poi.jpg",
     "price": "₹ 369",
     "amazonUrl": "https://link.amazon/B0hGDQ4eR"
   },
   {
+    "id": 108,
+    "name": "Backless dress",
+    "category": "western",
+    "subcategory": "skirts",
+    "image": "/products/women/uio.jpg",
+    "price": "₹ 336",
+    "amazonUrl": "https://link.amazon/B0bqi5aMX"
+  },
+  {
+    "id": 109,
+    "name": "BodyCon dress",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/women-78.png",
+    "price": "₹ 455",
+    "amazonUrl": "https://link.amazon/B01tNnUe0"
+  },
+  {
     "id": 110,
     "name": "BodyCon dress",
     "category": "women",
-    "subcategory": "skirts",
+    "subcategory": "western",
     "image": "/products/women/women-lop.jpg",
     "price": "₹ 430",
     "amazonUrl": "https://link.amazon/B04E06GRs"
@@ -64,34 +82,16 @@ const products = [
     "id": 111,
     "name": "BodyCon dress",
     "category": "women",
-    "subcategory": "skirts",
+    "subcategory": "western",
     "image": "/products/women/women-red.jpg",
     "price": "₹ 899",
     "amazonUrl": "https://link.amazon/B05gHeep9"
   },
   {
-    "id": 106,
-    "name": "BodyCon dress",
-    "category": "women",
-    "subcategory": "skirts",
-    "image": "/products/women/women-llp.jpg",
-    "price": "₹ 429",
-    "amazonUrl": "https://link.amazon/B0hedjQ49"
-  },
-  {
-    "id": 108,
-    "name": "Backless dress",
-    "category": "women",
-    "subcategory": "skirts",
-    "image": "/products/women/uio.jpg",
-    "price": "₹ 336",
-    "amazonUrl": "https://link.amazon/B0bqi5aMX"
-  },
-  {
     "id": 112,
-    "name": "BodyCon dress",
+    "name": "Relaxed Fit Casual Top",
     "category": "women",
-    "subcategory": "skirts",
+    "subcategory": "tops",
     "image": "/products/women/women-love.jpg",
     "price": "₹ 336",
     "amazonUrl": "https://link.amazon/B0hB4kqev"
@@ -115,7 +115,34 @@ const products = [
     "amazonUrl": "https://link.amazon/B09CN665V"
   },
   {
-    "id": 120,
+    "id": 116,
+    "name": "Short Kurthi",
+    "category": "women",
+    "subcategory": "tops",
+    "image": "/products/women/women-ppp.png",
+    "price": "₹ 179",
+    "amazonUrl": "https://link.amazon/B0gbX8WIj"
+  },
+  {
+    "id": 117,
+    "name": "Short Kurthi",
+    "category": "women",
+    "subcategory": "tops",
+    "image": "/products/women/women-oiu.png",
+    "price": "₹ 179",
+    "amazonUrl": "https://link.amazon/B0dIvYMuZ"
+  },
+  {
+    "id": 118,
+    "name": "Short Kurthi",
+    "category": "women",
+    "subcategory": "tops",
+    "image": "/products/women/women-lpi.png",
+    "price": "₹ 179",
+    "amazonUrl": "https://link.amazon/B0iPkAUZy"
+  },
+  {
+    "id": 128,
     "name": "Cropped Casual Denim Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -124,7 +151,7 @@ const products = [
     "amazonUrl": "https://link.amazon/B04RkW6lC"
   },
   {
-    "id": 125,
+    "id": 129,
     "name": "Lightweight Casual Linen Jacket",
     "category": "women",
     "subcategory": "jackets",
@@ -726,7 +753,8 @@ const products = [
 {
   "id": 621,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
+  
   "subcategory": "t-shirts",
   "image": "/products/men/men-t.png",
   "price": "₹ 499",
@@ -735,7 +763,7 @@ const products = [
 {
   "id": 622,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-papi.png",
   "price": "₹ 479",
@@ -744,7 +772,7 @@ const products = [
 {
   "id": 623,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-oli.png",
   "price": "₹ 499",
@@ -753,7 +781,7 @@ const products = [
 {
   "id": 624,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-sky.jpg",
   "price": "₹ 448",
@@ -762,7 +790,7 @@ const products = [
 {
   "id": 625,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-soul.png",
   "price": "₹ 371",
@@ -771,7 +799,7 @@ const products = [
 {
   "id": 626,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-yell.png",
   "price": "₹ 448",
@@ -780,7 +808,7 @@ const products = [
 {
   "id": 627,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-uni.png",
   "price": "₹ 299",
@@ -789,7 +817,7 @@ const products = [
 {
   "id": 628,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-dis.png",
   "price": "₹ 489",
@@ -798,7 +826,7 @@ const products = [
 {
   "id": 629,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-oo.png",
   "price": "₹ 299",
@@ -807,7 +835,7 @@ const products = [
 {
   "id": 630,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-spa.png",
   "price": "₹ 269",
@@ -816,14 +844,41 @@ const products = [
 {
   "id": 632,
   "name": "UNISEX-T shirt",
-  "category": "men",
+  "category": "both",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-ja.png",
+  "price": "₹ 388",
+  "amazonUrl": "https://link.amazon/B0aZn8dRs"
+},
+{
+  "id": 633,
+  "name": "UNISEX-T shirt",
+  "category": "both",
   "subcategory": "t-shirts",
   "image": "/products/men/men-roar.png",
   "price": "₹ 269",
   "amazonUrl": "https://link.amazon/B09fPnkcz"
 },
 {
-  "id": 633,
+  "id": 634,
+  "name": "UNISEX-T shirt",
+  "category": "both",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-ska.png",
+  "price": "₹ 339",
+  "amazonUrl": "https://link.amazon/B01GeCY0i"
+},
+{
+  "id": 635,
+  "name": "UNISEX-T shirt",
+  "category": "both",
+  "subcategory": "t-shirts",
+  "image": "/products/men/men-redd.png",
+  "price": "₹ 339",
+  "amazonUrl": "https://link.amazon/B0bOi6Fui"
+},
+{
+  "id": 641,
   "name": "Minimal Casual Overshirt",
   "category": "men",
   "subcategory": "shirts",
@@ -832,7 +887,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B09djlznJ"
 },
 {
-  "id": 634,
+  "id": 642,
   "name": "Slim Fit Everyday Casual Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -841,7 +896,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B0gFNZqGf"
 },
 {
-  "id": 635,
+  "id": 643,
   "name": "Acid Wash Streetwear Shirt",
   "category": "men",
   "subcategory": "shirts",
@@ -850,7 +905,7 @@ const products = [
   "amazonUrl": "https://link.amazon/B0agQaYMH"
 },
 {
-  "id": 640,
+  "id": 644,
   "name": "Casual Utility Pocket Shirt",
   "category": "men",
   "subcategory": "shirts",

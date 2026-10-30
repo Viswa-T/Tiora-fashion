@@ -11,9 +11,27 @@ const WOMEN_CATEGORIES = [
   { id: 'all', label: 'All', subcategories: [] },
   {
     id: 'tops',
-    label: 'Tops',
-    subcategories: ['tops', 't-shirts'],
+    label: 'Tops/Kurthi',
+    subcategories: ['tops'],
     image: '/products/women/women-002.jpg'
+  },
+  {
+    id: 'modern',
+    label: 'Western',
+    subcategories: ['western'],
+    image: '/products/women/women-poi.jpg'
+  },
+  {
+    id: 'skirts',
+    label: 'Skirts',
+    subcategories: ['skirts'],
+    image: '/products/women/women-001.jpg'
+  },
+  {
+    id: 't-shirts',
+    label: 'Unisex Tshirts',
+    subcategories: ['T-shirts'],
+    image: '/products/men/men-036.jpg'
   },
   {
     id: 'shirts',
@@ -28,14 +46,8 @@ const WOMEN_CATEGORIES = [
     image: '/products/women/women-011.jpg'
   },
   {
-    id: 'skirts',
-    label: 'Skirts',
-    subcategories: ['skirts'],
-    image: '/products/women/women-001.jpg'
-  },
-  {
     id: 'jackets',
-    label: 'Outerwear',
+    label: 'Jackets',
     subcategories: ['jackets'],
     image: '/products/women/women-004.jpg'
   },
@@ -112,8 +124,11 @@ export default function CollectionPage({
   const [visibleCount, setVisibleCount] = useState(16);
 
   // 1. Filter by category
+  // 1. Filter by category (includes unisex products)
   const baseCategoryProducts = useMemo(() => {
-    return products.filter((p) => p.category === category);
+    return products.filter(
+      (p) => p.category === category || p.category === 'both'
+    );
   }, [products, category]);
 
   // 2. Filter by subcategory

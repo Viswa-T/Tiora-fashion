@@ -142,6 +142,78 @@ const products = [
     "amazonUrl": "https://link.amazon/B0iPkAUZy"
   },
   {
+    "id": 119,
+    "name": "Party wear",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/women-off.jpg",
+    "price": "₹ 409",
+    "amazonUrl": "https://link.amazon/B0advtuIt"
+  },
+  {
+    "id": 120,
+    "name": "Party wear",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/women-pip.jpg",
+    "price": "₹ 421",
+    "amazonUrl": "https://link.amazon/B0f50kv8u"
+  },
+  {
+    "id": 121,
+    "name": "Party wear",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/women-kut.jpg",
+    "price": "₹ 999",
+    "amazonUrl": "https://link.amazon/B0aqVk20z"
+  },
+  {
+    "id": 122,
+    "name": "Bodycon Fit",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/women-full.jpg",
+    "price": "₹ 409",
+    "amazonUrl": "https://link.amazon/B0dHCaael"
+  },
+  {
+    "id": 123,
+    "name": "Casual Top",
+    "category": "women",
+    "subcategory": "tops",
+    "image": "/products/women/women-top.png",
+    "price": "₹ 249",
+    "amazonUrl": "https://link.amazon/B0dUxWMnb"
+  },
+   {
+    "id": 124,
+    "name": "Bodycon Fit",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/womwn-dot.jpg",
+    "price": "₹ 499",
+    "amazonUrl": "https://link.amazon/B0a7jdWlg"
+  },
+  {
+    "id": 125,
+    "name": "Casual Top",
+    "category": "women",
+    "subcategory": "tops",
+    "image": "/products/women/women-one.jpg",
+    "price": "₹ 309",
+    "amazonUrl": "https://link.amazon/B0htINXHU"
+  },
+  {
+    "id": 126,
+    "name": "Casual Top",
+    "category": "women",
+    "subcategory": "western",
+    "image": "/products/women/womwn-red.jpg",
+    "price": "₹ 350",
+    "amazonUrl": "https://link.amazon/B0amkXBTO"
+  },
+  {
     "id": 128,
     "name": "Cropped Casual Denim Jacket",
     "category": "women",

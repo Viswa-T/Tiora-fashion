@@ -5,7 +5,6 @@ import Women from './pages/Women';
 import Men from './pages/Men';
 import Discover from './pages/Discover';
 import { Analytics } from '@vercel/analytics/react';
-
 export default function App() {
   const getPath = () => {
     // Support pathname or hash-based routing (#/women, #/men, #/discover)

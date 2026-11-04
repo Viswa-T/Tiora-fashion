@@ -10,16 +10,22 @@ import Footer from '../components/Footer';
 const WOMEN_CATEGORIES = [
   { id: 'all', label: 'All', subcategories: [] },
   {
-    id: 'tops',
-    label: 'Tops/Kurthi',
-    subcategories: ['tops'],
-    image: '/products/women/women-002.jpg'
+    id: 'kurthi',
+    label: 'Kurthi',
+    subcategories: ['kurthi'],
+    image: '/products/women/women-co.png'
   },
   {
     id: 'modern',
     label: 'Western',
     subcategories: ['western'],
-    image: '/products/women/women-poi.jpg'
+    image: '/products/women/women-hi.png'
+  },
+  {
+    id: 'tops',
+    label: 'Tops',
+    subcategories: ['tops'],
+    image: '/products/women/women-002.jpg'
   },
   {
     id: 'skirts',
